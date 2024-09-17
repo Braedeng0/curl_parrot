@@ -37,4 +37,8 @@ def generate(filename, filepath):
             f.write('=====================\n')       
 
 if __name__ == '__main__':
-    generate()
+    import os
+
+    for filename in os.listdir('gifs/hd'):
+        if filename.endswith('.gif'):
+            generate(filename[:-4], f'gifs/hd/{filename}')
