@@ -2,11 +2,10 @@ from PIL import Image
 
 # Change the filename to the name of the gif you want to convert
 # The ascii text will be saved in processed_gifs/filename.txt
-filename = "parrot"
 
-def main():
+def generate(filename):
     frames = []
-    with Image.open(f"gifs/{filename}.gif") as im:
+    with Image.open(filename) as im:
         for i in range(im.n_frames):
             frame = ""
             im.seek(i)
@@ -38,4 +37,4 @@ def main():
             f.write('=====================\n')       
 
 if __name__ == '__main__':
-    main()
+    generate()
