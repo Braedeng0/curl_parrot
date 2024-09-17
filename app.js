@@ -60,7 +60,7 @@ app.get('/shuffleparrot', (req, res) => {
     res.setHeader('Connection', 'keep-alive');
     res.flushHeaders();
 
-    let fps = 20;
+    let fps = 15;
     let frameDuration = 1000 / fps;
 
     file = fs.readFileSync(`processed_gifs/${filename}.txt`, 'utf8');
