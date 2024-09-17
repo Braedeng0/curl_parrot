@@ -16,7 +16,7 @@ app.get('/parrot', (req, res) => {
     res.setHeader('Connection', 'keep-alive');
     res.flushHeaders();
 
-    let fps = 20;
+    let fps = 15;
     let frameDuration = 1000 / fps;
 
     // Load the gif from the file  
