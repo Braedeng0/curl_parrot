@@ -3,6 +3,16 @@ from PIL import Image
 # Change the filename to the name of the gif you want to convert
 # The ascii text will be saved in processed_gifs/filename.txt
 
+def toAnsi256(r, g, b, text):
+    # Convert rgb from 0-255 to 0-5
+    r = int(r / 255 * 5)
+    g = int(g / 255 * 5)
+    b = int(b / 255 * 5)
+    # Convert rgb to ansi256 color code
+    color_code =  16 + 36 * r + 6 * g + b
+    # Return the text with the color code
+    return f"\033[38;5;{color_code}m{text}\033[0m"
+
 def generate(filename, filepath):
     frames = []
     with Image.open(filepath) as im:
@@ -19,7 +29,7 @@ def generate(filename, filepath):
                     brightness = 0.2126*r + 0.7152*g + 0.0722*b
                     scale = " `.-':_,^=;><+!rc*/z?sLTv)J7(|Fi{CfI31tlu[neoZ5Yxjya]2ESwqkP6h9d4VpOGbUAKXHm8RD#$Bg0MNWQ%&@"
                     character = scale[int(brightness/255*len(scale))]
-                    asciiPixel = f"\033[38;2;{r};{g};{b}m{character}\033[0m"
+                    asciiPixel = toAnsi256(r, g, b, character)
                     if a == 0:
                         asciiPixel = " "
                     frame += asciiPixel
