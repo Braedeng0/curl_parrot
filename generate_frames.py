@@ -3,9 +3,9 @@ from PIL import Image
 # Change the filename to the name of the gif you want to convert
 # The ascii text will be saved in processed_gifs/filename.txt
 
-def generate(filename):
+def generate(filename, filepath):
     frames = []
-    with Image.open(filename) as im:
+    with Image.open(filepath) as im:
         for i in range(im.n_frames):
             frame = ""
             im.seek(i)
