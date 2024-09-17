@@ -3,6 +3,10 @@ const fs = require('fs');
 const app = express();
 const port = 80;
 
+app.get('/', (req, res) => {
+    res.redirect('https://github.com/Braedeng0/curl_parrot');
+});
+
 // Each endpoint will return a different gif
 app.get('/parrot', (req, res) => {
     let filename = "parrot";
