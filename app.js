@@ -5,6 +5,10 @@ const port = 80;app.get('/', (req, res) => {
 	res.redirect('https://github.com/Braedeng0/curl_parrot');
 });
 
+app.get('/help', (req, res) => {
+    res.sendFile(__dirname + '/README.md');
+});
+
 app.get('/balconyparrot', (req, res) => {
     let filename = "balconyparrot";
 
