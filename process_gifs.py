@@ -5,6 +5,7 @@ with open("app.js", "w") as f:
     f.write("const express = require('express');\nconst fs = require('fs');\nconst app = express();\nconst port = 80;")
     f.write("app.get('/', (req, res) => {\n\tres.redirect('https://github.com/Braedeng0/curl_parrot');\n});")
     f.write("\n")
+    f.write("app.get('/help', (req, res) => {\n\tres.sendFile(__dirname + '/README.md');\n});")
 
 directory = os.fsencode("gifs/hd")
 for file in os.listdir(directory):
@@ -12,13 +13,12 @@ for file in os.listdir(directory):
     filename = os.fsdecode(file)[:-4]
     generate_frames.generate(filename, filepath)
 
-    with open("app.js", "r") as f:
-        current_file = f.read()
     with open("jsTemplate.txt", "r") as f:
         newData = f.read()
 
-    with open("app.js", "w") as f:
-        f.write(current_file)
+    with open("app.js", "a") as f:
         f.write("\n")
         f.write(newData[:10] + filename + newData[10:49] + filename + newData[49:])
-        f.write("\n")
+
+with open("app.js", "a") as f:
+    f.write("app.listen(port, () => {\n\tconsole.log(`Server started at http://localhost:${port}`);\n});")
