@@ -7,10 +7,9 @@ with open("jsTemplate.txt", "r") as f:
 # Overwrite current files and add headers
 with open("app.js", "w") as f:
     f.write("const express = require('express');\nconst fs = require('fs');\nconst app = express();\nconst port = 80;")
-    f.write("app.get('/', (req, res) => {\n\tres.redirect('https://github.com/Braedeng0/curl_parrot');\n});")
-    f.write("\n")
-    f.write("app.get('/help', (req, res) => {\n\tres.sendFile(__dirname + '/README.md');\n});")
-    f.write(f"\n{mainFunc}")
+    f.write("\n\napp.get('/', (req, res) => {\n\tres.redirect('https://github.com/Braedeng0/curl_parrot');\n});")
+    f.write("\n\napp.get('/help', (req, res) => {\n\tres.sendFile(__dirname + '/README.md');\n});")
+    f.write(f"\n\n{mainFunc}")
 
 with open("README.md", "w") as f:
     f.write("## Curl Party Parrot\nPARTY OR DIE\n\n### Usage\ncurl https://curl-parrot.onrender.com/{endpoint}\n\nEndpoints:")
@@ -32,7 +31,7 @@ for file in os.listdir(directory):
     parrots.append(filename)
 
 with open("app.js", "a") as f:
-    f.write("app.listen(port, () => {\n\tconsole.log(`Server started at http://localhost:${port}`);\n});")
+    f.write("\napp.listen(port, () => {\n\tconsole.log(`Server started at http://localhost:${port}`);\n});")
 
 parrots = sorted(parrots)
 with open("README.md", "a") as f:
