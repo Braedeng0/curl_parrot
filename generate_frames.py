@@ -13,7 +13,7 @@ def toAnsi256(r, g, b, text):
     # Return the text with the color code
     return f"\033[38;5;{color_code}m{text}\033[0m"
 
-def generate(filename, filepath):
+def generate(filename, filepath, saveDir):
     frames = []
     with Image.open(filepath) as im:
         for i in range(im.n_frames):
@@ -41,7 +41,7 @@ def generate(filename, filepath):
     non_empty_lines = [line for line in transposed_lines if not all(l.strip() == "" for l in line)]
     frames = ['\n'.join(line) for line in zip(*non_empty_lines)]
 
-    with open(f"processed_gifs/{filename}.txt", "w") as f:     
+    with open(f"{saveDir}/{filename}.txt", "w") as f:     
         for frame in frames:
             f.write(frame)
             f.write('=====================\n')       
