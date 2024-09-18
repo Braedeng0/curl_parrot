@@ -1,4 +1,4 @@
-function parrotRequest(parrot) {
+function parrotRequest(parrot, req, res) {
     let filename = parrot;
 
     res.setHeader('Content-Type', 'text/event-stream');

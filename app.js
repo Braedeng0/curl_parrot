@@ -7,7 +7,7 @@ const port = 80;app.get('/', (req, res) => {
 app.get('/help', (req, res) => {
 	res.sendFile(__dirname + '/README.md');
 });
-function parrotRequest(parrot) {
+function parrotRequest(parrot, req, res) {
     let filename = parrot;
 
     res.setHeader('Content-Type', 'text/event-stream');
@@ -52,1767 +52,1767 @@ function parrotRequest(parrot) {
 }
 
 app.get('/balconyparrot', (req, res) => {
-	parrotRequest('balconyparrot')
+	parrotRequest('balconyparrot', req, res)
 });
 
 app.get('/bulgariaparrot', (req, res) => {
-	parrotRequest('bulgariaparrot')
+	parrotRequest('bulgariaparrot', req, res)
 });
 
 app.get('/partycage', (req, res) => {
-	parrotRequest('partycage')
+	parrotRequest('partycage', req, res)
 });
 
 app.get('/jumpingparrot', (req, res) => {
-	parrotRequest('jumpingparrot')
+	parrotRequest('jumpingparrot', req, res)
 });
 
 app.get('/northmacedoniaparrot', (req, res) => {
-	parrotRequest('northmacedoniaparrot')
+	parrotRequest('northmacedoniaparrot', req, res)
 });
 
 app.get('/singaporeparrot', (req, res) => {
-	parrotRequest('singaporeparrot')
+	parrotRequest('singaporeparrot', req, res)
 });
 
 app.get('/vaccineparrot', (req, res) => {
-	parrotRequest('vaccineparrot')
+	parrotRequest('vaccineparrot', req, res)
 });
 
 app.get('/sudanparrot', (req, res) => {
-	parrotRequest('sudanparrot')
+	parrotRequest('sudanparrot', req, res)
 });
 
 app.get('/gabonparrot', (req, res) => {
-	parrotRequest('gabonparrot')
+	parrotRequest('gabonparrot', req, res)
 });
 
 app.get('/italyparrot', (req, res) => {
-	parrotRequest('italyparrot')
+	parrotRequest('italyparrot', req, res)
 });
 
 app.get('/hondurasparrot', (req, res) => {
-	parrotRequest('hondurasparrot')
+	parrotRequest('hondurasparrot', req, res)
 });
 
 app.get('/luxembourgparrot', (req, res) => {
-	parrotRequest('luxembourgparrot')
+	parrotRequest('luxembourgparrot', req, res)
 });
 
 app.get('/stubparrot', (req, res) => {
-	parrotRequest('stubparrot')
+	parrotRequest('stubparrot', req, res)
 });
 
 app.get('/rwandaparrot', (req, res) => {
-	parrotRequest('rwandaparrot')
+	parrotRequest('rwandaparrot', req, res)
 });
 
 app.get('/cameroonparrot', (req, res) => {
-	parrotRequest('cameroonparrot')
+	parrotRequest('cameroonparrot', req, res)
 });
 
 app.get('/surinameparrot', (req, res) => {
-	parrotRequest('surinameparrot')
+	parrotRequest('surinameparrot', req, res)
 });
 
 app.get('/romaniaparrot', (req, res) => {
-	parrotRequest('romaniaparrot')
+	parrotRequest('romaniaparrot', req, res)
 });
 
 app.get('/bahamasparrot', (req, res) => {
-	parrotRequest('bahamasparrot')
+	parrotRequest('bahamasparrot', req, res)
 });
 
 app.get('/partytux', (req, res) => {
-	parrotRequest('partytux')
+	parrotRequest('partytux', req, res)
 });
 
 app.get('/elsalvadorparrot', (req, res) => {
-	parrotRequest('elsalvadorparrot')
+	parrotRequest('elsalvadorparrot', req, res)
 });
 
 app.get('/vietnamparrot', (req, res) => {
-	parrotRequest('vietnamparrot')
+	parrotRequest('vietnamparrot', req, res)
 });
 
 app.get('/rythmicalparrot', (req, res) => {
-	parrotRequest('rythmicalparrot')
+	parrotRequest('rythmicalparrot', req, res)
 });
 
 app.get('/bluntparrot', (req, res) => {
-	parrotRequest('bluntparrot')
+	parrotRequest('bluntparrot', req, res)
 });
 
 app.get('/flyingmoneyparrot', (req, res) => {
-	parrotRequest('flyingmoneyparrot')
+	parrotRequest('flyingmoneyparrot', req, res)
 });
 
 app.get('/cyprusparrot', (req, res) => {
-	parrotRequest('cyprusparrot')
+	parrotRequest('cyprusparrot', req, res)
 });
 
 app.get('/biparrot', (req, res) => {
-	parrotRequest('biparrot')
+	parrotRequest('biparrot', req, res)
 });
 
 app.get('/palauparrot', (req, res) => {
-	parrotRequest('palauparrot')
+	parrotRequest('palauparrot', req, res)
 });
 
 app.get('/portalorangeparrot', (req, res) => {
-	parrotRequest('portalorangeparrot')
+	parrotRequest('portalorangeparrot', req, res)
 });
 
 app.get('/hypnoparrotdark', (req, res) => {
-	parrotRequest('hypnoparrotdark')
+	parrotRequest('hypnoparrotdark', req, res)
 });
 
 app.get('/vacationparrot', (req, res) => {
-	parrotRequest('vacationparrot')
+	parrotRequest('vacationparrot', req, res)
 });
 
 app.get('/argentinaparrot', (req, res) => {
-	parrotRequest('argentinaparrot')
+	parrotRequest('argentinaparrot', req, res)
 });
 
 app.get('/bhutanparrot', (req, res) => {
-	parrotRequest('bhutanparrot')
+	parrotRequest('bhutanparrot', req, res)
 });
 
 app.get('/gothparrot', (req, res) => {
-	parrotRequest('gothparrot')
+	parrotRequest('gothparrot', req, res)
 });
 
 app.get('/guatemalaparrot', (req, res) => {
-	parrotRequest('guatemalaparrot')
+	parrotRequest('guatemalaparrot', req, res)
 });
 
 app.get('/trinidadandtobagoparrot', (req, res) => {
-	parrotRequest('trinidadandtobagoparrot')
+	parrotRequest('trinidadandtobagoparrot', req, res)
 });
 
 app.get('/vikingparrot', (req, res) => {
-	parrotRequest('vikingparrot')
+	parrotRequest('vikingparrot', req, res)
 });
 
 app.get('/dominicanrepublicparrot', (req, res) => {
-	parrotRequest('dominicanrepublicparrot')
+	parrotRequest('dominicanrepublicparrot', req, res)
 });
 
 app.get('/docparrot', (req, res) => {
-	parrotRequest('docparrot')
+	parrotRequest('docparrot', req, res)
 });
 
 app.get('/boredparrot', (req, res) => {
-	parrotRequest('boredparrot')
+	parrotRequest('boredparrot', req, res)
 });
 
 app.get('/panamaparrot', (req, res) => {
-	parrotRequest('panamaparrot')
+	parrotRequest('panamaparrot', req, res)
 });
 
 app.get('/picassoparrot', (req, res) => {
-	parrotRequest('picassoparrot')
+	parrotRequest('picassoparrot', req, res)
 });
 
 app.get('/jumpingparrotjr', (req, res) => {
-	parrotRequest('jumpingparrotjr')
+	parrotRequest('jumpingparrotjr', req, res)
 });
 
 app.get('/staytfhomeparrot', (req, res) => {
-	parrotRequest('staytfhomeparrot')
+	parrotRequest('staytfhomeparrot', req, res)
 });
 
 app.get('/moroccoparrot', (req, res) => {
-	parrotRequest('moroccoparrot')
+	parrotRequest('moroccoparrot', req, res)
 });
 
 app.get('/maliparrot', (req, res) => {
-	parrotRequest('maliparrot')
+	parrotRequest('maliparrot', req, res)
 });
 
 app.get('/pumpkinparrot', (req, res) => {
-	parrotRequest('pumpkinparrot')
+	parrotRequest('pumpkinparrot', req, res)
 });
 
 app.get('/newzealandparrot', (req, res) => {
-	parrotRequest('newzealandparrot')
+	parrotRequest('newzealandparrot', req, res)
 });
 
 app.get('/quadparrot', (req, res) => {
-	parrotRequest('quadparrot')
+	parrotRequest('quadparrot', req, res)
 });
 
 app.get('/kindasusparrot', (req, res) => {
-	parrotRequest('kindasusparrot')
+	parrotRequest('kindasusparrot', req, res)
 });
 
 app.get('/shuffleparrot', (req, res) => {
-	parrotRequest('shuffleparrot')
+	parrotRequest('shuffleparrot', req, res)
 });
 
 app.get('/cookislandsparrot', (req, res) => {
-	parrotRequest('cookislandsparrot')
+	parrotRequest('cookislandsparrot', req, res)
 });
 
 app.get('/gumiparrot', (req, res) => {
-	parrotRequest('gumiparrot')
+	parrotRequest('gumiparrot', req, res)
 });
 
 app.get('/angryparrot', (req, res) => {
-	parrotRequest('angryparrot')
+	parrotRequest('angryparrot', req, res)
 });
 
 app.get('/haitiparrot', (req, res) => {
-	parrotRequest('haitiparrot')
+	parrotRequest('haitiparrot', req, res)
 });
 
 app.get('/playcatchleftparrot', (req, res) => {
-	parrotRequest('playcatchleftparrot')
+	parrotRequest('playcatchleftparrot', req, res)
 });
 
 app.get('/marshallislandsparrot', (req, res) => {
-	parrotRequest('marshallislandsparrot')
+	parrotRequest('marshallislandsparrot', req, res)
 });
 
 app.get('/sithparrot', (req, res) => {
-	parrotRequest('sithparrot')
+	parrotRequest('sithparrot', req, res)
 });
 
 app.get('/frenchparrot', (req, res) => {
-	parrotRequest('frenchparrot')
+	parrotRequest('frenchparrot', req, res)
 });
 
 app.get('/fastparrot', (req, res) => {
-	parrotRequest('fastparrot')
+	parrotRequest('fastparrot', req, res)
 });
 
 app.get('/bootlegparrot', (req, res) => {
-	parrotRequest('bootlegparrot')
+	parrotRequest('bootlegparrot', req, res)
 });
 
 app.get('/papuanewguineaparrot', (req, res) => {
-	parrotRequest('papuanewguineaparrot')
+	parrotRequest('papuanewguineaparrot', req, res)
 });
 
 app.get('/austriaparrot', (req, res) => {
-	parrotRequest('austriaparrot')
+	parrotRequest('austriaparrot', req, res)
 });
 
 app.get('/togoparrot', (req, res) => {
-	parrotRequest('togoparrot')
+	parrotRequest('togoparrot', req, res)
 });
 
 app.get('/batparrot', (req, res) => {
-	parrotRequest('batparrot')
+	parrotRequest('batparrot', req, res)
 });
 
 app.get('/thisisfineparrot', (req, res) => {
-	parrotRequest('thisisfineparrot')
+	parrotRequest('thisisfineparrot', req, res)
 });
 
 app.get('/philippinesparrot', (req, res) => {
-	parrotRequest('philippinesparrot')
+	parrotRequest('philippinesparrot', req, res)
 });
 
 app.get('/pokeparrot', (req, res) => {
-	parrotRequest('pokeparrot')
+	parrotRequest('pokeparrot', req, res)
 });
 
 app.get('/parrotpoop', (req, res) => {
-	parrotRequest('parrotpoop')
+	parrotRequest('parrotpoop', req, res)
 });
 
 app.get('/aussieparrot', (req, res) => {
-	parrotRequest('aussieparrot')
+	parrotRequest('aussieparrot', req, res)
 });
 
 app.get('/levitationparrot', (req, res) => {
-	parrotRequest('levitationparrot')
+	parrotRequest('levitationparrot', req, res)
 });
 
 app.get('/myanmarparrot', (req, res) => {
-	parrotRequest('myanmarparrot')
+	parrotRequest('myanmarparrot', req, res)
 });
 
 app.get('/bosniaandherzegovinaparrot', (req, res) => {
-	parrotRequest('bosniaandherzegovinaparrot')
+	parrotRequest('bosniaandherzegovinaparrot', req, res)
 });
 
 app.get('/harpoparrot', (req, res) => {
-	parrotRequest('harpoparrot')
+	parrotRequest('harpoparrot', req, res)
 });
 
 app.get('/imposterparrot', (req, res) => {
-	parrotRequest('imposterparrot')
+	parrotRequest('imposterparrot', req, res)
 });
 
 app.get('/croissantparrot', (req, res) => {
-	parrotRequest('croissantparrot')
+	parrotRequest('croissantparrot', req, res)
 });
 
 app.get('/tajikistanparrot', (req, res) => {
-	parrotRequest('tajikistanparrot')
+	parrotRequest('tajikistanparrot', req, res)
 });
 
 app.get('/ukraineparrot', (req, res) => {
-	parrotRequest('ukraineparrot')
+	parrotRequest('ukraineparrot', req, res)
 });
 
 app.get('/guineaparrot', (req, res) => {
-	parrotRequest('guineaparrot')
+	parrotRequest('guineaparrot', req, res)
 });
 
 app.get('/congaparrot', (req, res) => {
-	parrotRequest('congaparrot')
+	parrotRequest('congaparrot', req, res)
 });
 
 app.get('/sahrawiarabdemocraticrepublicparrot', (req, res) => {
-	parrotRequest('sahrawiarabdemocraticrepublicparrot')
+	parrotRequest('sahrawiarabdemocraticrepublicparrot', req, res)
 });
 
 app.get('/partygeeko', (req, res) => {
-	parrotRequest('partygeeko')
+	parrotRequest('partygeeko', req, res)
 });
 
 app.get('/sadparrot', (req, res) => {
-	parrotRequest('sadparrot')
+	parrotRequest('sadparrot', req, res)
 });
 
 app.get('/japanparrot', (req, res) => {
-	parrotRequest('japanparrot')
+	parrotRequest('japanparrot', req, res)
 });
 
 app.get('/partyparrot', (req, res) => {
-	parrotRequest('partyparrot')
+	parrotRequest('partyparrot', req, res)
 });
 
 app.get('/latviaparrot', (req, res) => {
-	parrotRequest('latviaparrot')
+	parrotRequest('latviaparrot', req, res)
 });
 
 app.get('/daftpunkparrot', (req, res) => {
-	parrotRequest('daftpunkparrot')
+	parrotRequest('daftpunkparrot', req, res)
 });
 
 app.get('/boomparrot', (req, res) => {
-	parrotRequest('boomparrot')
+	parrotRequest('boomparrot', req, res)
 });
 
 app.get('/lebanonparrot', (req, res) => {
-	parrotRequest('lebanonparrot')
+	parrotRequest('lebanonparrot', req, res)
 });
 
 app.get('/sanmarinoparrot', (req, res) => {
-	parrotRequest('sanmarinoparrot')
+	parrotRequest('sanmarinoparrot', req, res)
 });
 
 app.get('/redenvelopeparrot', (req, res) => {
-	parrotRequest('redenvelopeparrot')
+	parrotRequest('redenvelopeparrot', req, res)
 });
 
 app.get('/indonesiaparrot', (req, res) => {
-	parrotRequest('indonesiaparrot')
+	parrotRequest('indonesiaparrot', req, res)
 });
 
 app.get('/sloveniaparrot', (req, res) => {
-	parrotRequest('sloveniaparrot')
+	parrotRequest('sloveniaparrot', req, res)
 });
 
 app.get('/partyfieri', (req, res) => {
-	parrotRequest('partyfieri')
+	parrotRequest('partyfieri', req, res)
 });
 
 app.get('/southkoreaparrot', (req, res) => {
-	parrotRequest('southkoreaparrot')
+	parrotRequest('southkoreaparrot', req, res)
 });
 
 app.get('/astronautparrot', (req, res) => {
-	parrotRequest('astronautparrot')
+	parrotRequest('astronautparrot', req, res)
 });
 
 app.get('/turkeyparrot', (req, res) => {
-	parrotRequest('turkeyparrot')
+	parrotRequest('turkeyparrot', req, res)
 });
 
 app.get('/belarusparrot', (req, res) => {
-	parrotRequest('belarusparrot')
+	parrotRequest('belarusparrot', req, res)
 });
 
 app.get('/samoaparrot', (req, res) => {
-	parrotRequest('samoaparrot')
+	parrotRequest('samoaparrot', req, res)
 });
 
 app.get('/originalparrot', (req, res) => {
-	parrotRequest('originalparrot')
+	parrotRequest('originalparrot', req, res)
 });
 
 app.get('/scienceparrot', (req, res) => {
-	parrotRequest('scienceparrot')
+	parrotRequest('scienceparrot', req, res)
 });
 
 app.get('/afghanistanparrot', (req, res) => {
-	parrotRequest('afghanistanparrot')
+	parrotRequest('afghanistanparrot', req, res)
 });
 
 app.get('/saintluciaparrot', (req, res) => {
-	parrotRequest('saintluciaparrot')
+	parrotRequest('saintluciaparrot', req, res)
 });
 
 app.get('/horizontalparrot', (req, res) => {
-	parrotRequest('horizontalparrot')
+	parrotRequest('horizontalparrot', req, res)
 });
 
 app.get('/vueparrot', (req, res) => {
-	parrotRequest('vueparrot')
+	parrotRequest('vueparrot', req, res)
 });
 
 app.get('/abkhaziaparrot', (req, res) => {
-	parrotRequest('abkhaziaparrot')
+	parrotRequest('abkhaziaparrot', req, res)
 });
 
 app.get('/estoniaparrot', (req, res) => {
-	parrotRequest('estoniaparrot')
+	parrotRequest('estoniaparrot', req, res)
 });
 
 app.get('/party-k8s', (req, res) => {
-	parrotRequest('party-k8s')
+	parrotRequest('party-k8s', req, res)
 });
 
 app.get('/innersourceparrot', (req, res) => {
-	parrotRequest('innersourceparrot')
+	parrotRequest('innersourceparrot', req, res)
 });
 
 app.get('/icelandparrot', (req, res) => {
-	parrotRequest('icelandparrot')
+	parrotRequest('icelandparrot', req, res)
 });
 
 app.get('/pakistanparrot', (req, res) => {
-	parrotRequest('pakistanparrot')
+	parrotRequest('pakistanparrot', req, res)
 });
 
 app.get('/opensourceparrot', (req, res) => {
-	parrotRequest('opensourceparrot')
+	parrotRequest('opensourceparrot', req, res)
 });
 
 app.get('/saudiarabiaparrot', (req, res) => {
-	parrotRequest('saudiarabiaparrot')
+	parrotRequest('saudiarabiaparrot', req, res)
 });
 
 app.get('/nigerparrot', (req, res) => {
-	parrotRequest('nigerparrot')
+	parrotRequest('nigerparrot', req, res)
 });
 
 app.get('/guyanaparrot', (req, res) => {
-	parrotRequest('guyanaparrot')
+	parrotRequest('guyanaparrot', req, res)
 });
 
 app.get('/maskparrot', (req, res) => {
-	parrotRequest('maskparrot')
+	parrotRequest('maskparrot', req, res)
 });
 
 app.get('/sintparrot', (req, res) => {
-	parrotRequest('sintparrot')
+	parrotRequest('sintparrot', req, res)
 });
 
 app.get('/fijiparrot', (req, res) => {
-	parrotRequest('fijiparrot')
+	parrotRequest('fijiparrot', req, res)
 });
 
 app.get('/sierraleoneparrot', (req, res) => {
-	parrotRequest('sierraleoneparrot')
+	parrotRequest('sierraleoneparrot', req, res)
 });
 
 app.get('/northerncyprusparrot', (req, res) => {
-	parrotRequest('northerncyprusparrot')
+	parrotRequest('northerncyprusparrot', req, res)
 });
 
 app.get('/ceilingparrot', (req, res) => {
-	parrotRequest('ceilingparrot')
+	parrotRequest('ceilingparrot', req, res)
 });
 
 app.get('/headbangingparrot', (req, res) => {
-	parrotRequest('headbangingparrot')
+	parrotRequest('headbangingparrot', req, res)
 });
 
 app.get('/partygopher', (req, res) => {
-	parrotRequest('partygopher')
+	parrotRequest('partygopher', req, res)
 });
 
 app.get('/vanuatuparrot', (req, res) => {
-	parrotRequest('vanuatuparrot')
+	parrotRequest('vanuatuparrot', req, res)
 });
 
 app.get('/middleparrot', (req, res) => {
-	parrotRequest('middleparrot')
+	parrotRequest('middleparrot', req, res)
 });
 
 app.get('/guineabissauparrot', (req, res) => {
-	parrotRequest('guineabissauparrot')
+	parrotRequest('guineabissauparrot', req, res)
 });
 
 app.get('/switzerlandparrot', (req, res) => {
-	parrotRequest('switzerlandparrot')
+	parrotRequest('switzerlandparrot', req, res)
 });
 
 app.get('/malaysiaparrot', (req, res) => {
-	parrotRequest('malaysiaparrot')
+	parrotRequest('malaysiaparrot', req, res)
 });
 
 app.get('/maltaparrot', (req, res) => {
-	parrotRequest('maltaparrot')
+	parrotRequest('maltaparrot', req, res)
 });
 
 app.get('/uruguayparrot', (req, res) => {
-	parrotRequest('uruguayparrot')
+	parrotRequest('uruguayparrot', req, res)
 });
 
 app.get('/nodeparrot', (req, res) => {
-	parrotRequest('nodeparrot')
+	parrotRequest('nodeparrot', req, res)
 });
 
 app.get('/tuvaluparrot', (req, res) => {
-	parrotRequest('tuvaluparrot')
+	parrotRequest('tuvaluparrot', req, res)
 });
 
 app.get('/hanamiparrot', (req, res) => {
-	parrotRequest('hanamiparrot')
+	parrotRequest('hanamiparrot', req, res)
 });
 
 app.get('/israelparrot', (req, res) => {
-	parrotRequest('israelparrot')
+	parrotRequest('israelparrot', req, res)
 });
 
 app.get('/checkeredflagparrot', (req, res) => {
-	parrotRequest('checkeredflagparrot')
+	parrotRequest('checkeredflagparrot', req, res)
 });
 
 app.get('/mongoliaparrot', (req, res) => {
-	parrotRequest('mongoliaparrot')
+	parrotRequest('mongoliaparrot', req, res)
 });
 
 app.get('/stayhomeparrotwindow', (req, res) => {
-	parrotRequest('stayhomeparrotwindow')
+	parrotRequest('stayhomeparrotwindow', req, res)
 });
 
 app.get('/westernsaharaparrot', (req, res) => {
-	parrotRequest('westernsaharaparrot')
+	parrotRequest('westernsaharaparrot', req, res)
 });
 
 app.get('/raceconditionparrot', (req, res) => {
-	parrotRequest('raceconditionparrot')
+	parrotRequest('raceconditionparrot', req, res)
 });
 
 app.get('/gentlemanparrot', (req, res) => {
-	parrotRequest('gentlemanparrot')
+	parrotRequest('gentlemanparrot', req, res)
 });
 
 app.get('/zambiaparrot', (req, res) => {
-	parrotRequest('zambiaparrot')
+	parrotRequest('zambiaparrot', req, res)
 });
 
 app.get('/tanzaniaparrot', (req, res) => {
-	parrotRequest('tanzaniaparrot')
+	parrotRequest('tanzaniaparrot', req, res)
 });
 
 app.get('/egyptparrot', (req, res) => {
-	parrotRequest('egyptparrot')
+	parrotRequest('egyptparrot', req, res)
 });
 
 app.get('/laosparrot', (req, res) => {
-	parrotRequest('laosparrot')
+	parrotRequest('laosparrot', req, res)
 });
 
 app.get('/sherlockholmesparrot', (req, res) => {
-	parrotRequest('sherlockholmesparrot')
+	parrotRequest('sherlockholmesparrot', req, res)
 });
 
 app.get('/sushiparrot', (req, res) => {
-	parrotRequest('sushiparrot')
+	parrotRequest('sushiparrot', req, res)
 });
 
 app.get('/tiedyeparrot', (req, res) => {
-	parrotRequest('tiedyeparrot')
+	parrotRequest('tiedyeparrot', req, res)
 });
 
 app.get('/cryingjordanparrot', (req, res) => {
-	parrotRequest('cryingjordanparrot')
+	parrotRequest('cryingjordanparrot', req, res)
 });
 
 app.get('/ecuadorparrot', (req, res) => {
-	parrotRequest('ecuadorparrot')
+	parrotRequest('ecuadorparrot', req, res)
 });
 
 app.get('/easttimorparrot', (req, res) => {
-	parrotRequest('easttimorparrot')
+	parrotRequest('easttimorparrot', req, res)
 });
 
 app.get('/chinaparrot', (req, res) => {
-	parrotRequest('chinaparrot')
+	parrotRequest('chinaparrot', req, res)
 });
 
 app.get('/sleepingparrot', (req, res) => {
-	parrotRequest('sleepingparrot')
+	parrotRequest('sleepingparrot', req, res)
 });
 
 app.get('/unitedkingdomparrot', (req, res) => {
-	parrotRequest('unitedkingdomparrot')
+	parrotRequest('unitedkingdomparrot', req, res)
 });
 
 app.get('/lithuaniaparrot', (req, res) => {
-	parrotRequest('lithuaniaparrot')
+	parrotRequest('lithuaniaparrot', req, res)
 });
 
 app.get('/nyanparrot', (req, res) => {
-	parrotRequest('nyanparrot')
+	parrotRequest('nyanparrot', req, res)
 });
 
 app.get('/dealwithitparrot', (req, res) => {
-	parrotRequest('dealwithitparrot')
+	parrotRequest('dealwithitparrot', req, res)
 });
 
 app.get('/armeniaparrot', (req, res) => {
-	parrotRequest('armeniaparrot')
+	parrotRequest('armeniaparrot', req, res)
 });
 
 app.get('/redbullparrot', (req, res) => {
-	parrotRequest('redbullparrot')
+	parrotRequest('redbullparrot', req, res)
 });
 
 app.get('/bruneiparrot', (req, res) => {
-	parrotRequest('bruneiparrot')
+	parrotRequest('bruneiparrot', req, res)
 });
 
 app.get('/cambodiaparrot', (req, res) => {
-	parrotRequest('cambodiaparrot')
+	parrotRequest('cambodiaparrot', req, res)
 });
 
 app.get('/partysloth', (req, res) => {
-	parrotRequest('partysloth')
+	parrotRequest('partysloth', req, res)
 });
 
 app.get('/niueparrot', (req, res) => {
-	parrotRequest('niueparrot')
+	parrotRequest('niueparrot', req, res)
 });
 
 app.get('/reverseportalblueparrot', (req, res) => {
-	parrotRequest('reverseportalblueparrot')
+	parrotRequest('reverseportalblueparrot', req, res)
 });
 
 app.get('/headsetparrot', (req, res) => {
-	parrotRequest('headsetparrot')
+	parrotRequest('headsetparrot', req, res)
 });
 
 app.get('/southafricaparrot', (req, res) => {
-	parrotRequest('southafricaparrot')
+	parrotRequest('southafricaparrot', req, res)
 });
 
 app.get('/mergeimmediatelyparrot', (req, res) => {
-	parrotRequest('mergeimmediatelyparrot')
+	parrotRequest('mergeimmediatelyparrot', req, res)
 });
 
 app.get('/saintkittsandnevisparrot', (req, res) => {
-	parrotRequest('saintkittsandnevisparrot')
+	parrotRequest('saintkittsandnevisparrot', req, res)
 });
 
 app.get('/laptop_parrot', (req, res) => {
-	parrotRequest('laptop_parrot')
+	parrotRequest('laptop_parrot', req, res)
 });
 
 app.get('/liechtensteinparrot', (req, res) => {
-	parrotRequest('liechtensteinparrot')
+	parrotRequest('liechtensteinparrot', req, res)
 });
 
 app.get('/exceptionallyfastparrot', (req, res) => {
-	parrotRequest('exceptionallyfastparrot')
+	parrotRequest('exceptionallyfastparrot', req, res)
 });
 
 app.get('/transnistriaparrot', (req, res) => {
-	parrotRequest('transnistriaparrot')
+	parrotRequest('transnistriaparrot', req, res)
 });
 
 app.get('/mergetrainparrot', (req, res) => {
-	parrotRequest('mergetrainparrot')
+	parrotRequest('mergetrainparrot', req, res)
 });
 
 app.get('/northern-ireland-ulster-banner', (req, res) => {
-	parrotRequest('northern-ireland-ulster-banner')
+	parrotRequest('northern-ireland-ulster-banner', req, res)
 });
 
 app.get('/brazilianfanparrot', (req, res) => {
-	parrotRequest('brazilianfanparrot')
+	parrotRequest('brazilianfanparrot', req, res)
 });
 
 app.get('/beerparrot', (req, res) => {
-	parrotRequest('beerparrot')
+	parrotRequest('beerparrot', req, res)
 });
 
 app.get('/mauritaniaparrot', (req, res) => {
-	parrotRequest('mauritaniaparrot')
+	parrotRequest('mauritaniaparrot', req, res)
 });
 
 app.get('/wendyparrot', (req, res) => {
-	parrotRequest('wendyparrot')
+	parrotRequest('wendyparrot', req, res)
 });
 
 app.get('/malawiparrot', (req, res) => {
-	parrotRequest('malawiparrot')
+	parrotRequest('malawiparrot', req, res)
 });
 
 app.get('/northkoreaparrot', (req, res) => {
-	parrotRequest('northkoreaparrot')
+	parrotRequest('northkoreaparrot', req, res)
 });
 
 app.get('/wineparrot', (req, res) => {
-	parrotRequest('wineparrot')
+	parrotRequest('wineparrot', req, res)
 });
 
 app.get('/quebecparrot', (req, res) => {
-	parrotRequest('quebecparrot')
+	parrotRequest('quebecparrot', req, res)
 });
 
 app.get('/azerbaijanparrot', (req, res) => {
-	parrotRequest('azerbaijanparrot')
+	parrotRequest('azerbaijanparrot', req, res)
 });
 
 app.get('/fasttwinsparrot', (req, res) => {
-	parrotRequest('fasttwinsparrot')
+	parrotRequest('fasttwinsparrot', req, res)
 });
 
 app.get('/partyblobcat', (req, res) => {
-	parrotRequest('partyblobcat')
+	parrotRequest('partyblobcat', req, res)
 });
 
 app.get('/russiaparrot', (req, res) => {
-	parrotRequest('russiaparrot')
+	parrotRequest('russiaparrot', req, res)
 });
 
 app.get('/montenegroparrot', (req, res) => {
-	parrotRequest('montenegroparrot')
+	parrotRequest('montenegroparrot', req, res)
 });
 
 app.get('/nepalparrot', (req, res) => {
-	parrotRequest('nepalparrot')
+	parrotRequest('nepalparrot', req, res)
 });
 
 app.get('/backwardsparrot', (req, res) => {
-	parrotRequest('backwardsparrot')
+	parrotRequest('backwardsparrot', req, res)
 });
 
 app.get('/serbiaparrot', (req, res) => {
-	parrotRequest('serbiaparrot')
+	parrotRequest('serbiaparrot', req, res)
 });
 
 app.get('/thailandparrot', (req, res) => {
-	parrotRequest('thailandparrot')
+	parrotRequest('thailandparrot', req, res)
 });
 
 app.get('/aussiereversecongaparrot', (req, res) => {
-	parrotRequest('aussiereversecongaparrot')
+	parrotRequest('aussiereversecongaparrot', req, res)
 });
 
 app.get('/yosemitesamparrot', (req, res) => {
-	parrotRequest('yosemitesamparrot')
+	parrotRequest('yosemitesamparrot', req, res)
 });
 
 app.get('/bugparrot', (req, res) => {
-	parrotRequest('bugparrot')
+	parrotRequest('bugparrot', req, res)
 });
 
 app.get('/slowparrot', (req, res) => {
-	parrotRequest('slowparrot')
+	parrotRequest('slowparrot', req, res)
 });
 
 app.get('/bobaparrot', (req, res) => {
-	parrotRequest('bobaparrot')
+	parrotRequest('bobaparrot', req, res)
 });
 
 app.get('/turkmenistanparrot', (req, res) => {
-	parrotRequest('turkmenistanparrot')
+	parrotRequest('turkmenistanparrot', req, res)
 });
 
 app.get('/confusedparrot', (req, res) => {
-	parrotRequest('confusedparrot')
+	parrotRequest('confusedparrot', req, res)
 });
 
 app.get('/footballparrot', (req, res) => {
-	parrotRequest('footballparrot')
+	parrotRequest('footballparrot', req, res)
 });
 
 app.get('/jamaicaparrot', (req, res) => {
-	parrotRequest('jamaicaparrot')
+	parrotRequest('jamaicaparrot', req, res)
 });
 
 app.get('/congapartyparrot', (req, res) => {
-	parrotRequest('congapartyparrot')
+	parrotRequest('congapartyparrot', req, res)
 });
 
 app.get('/party-wizard', (req, res) => {
-	parrotRequest('party-wizard')
+	parrotRequest('party-wizard', req, res)
 });
 
 app.get('/coffeeparrot', (req, res) => {
-	parrotRequest('coffeeparrot')
+	parrotRequest('coffeeparrot', req, res)
 });
 
 app.get('/accessibleparrot', (req, res) => {
-	parrotRequest('accessibleparrot')
+	parrotRequest('accessibleparrot', req, res)
 });
 
 app.get('/partywumpus', (req, res) => {
-	parrotRequest('partywumpus')
+	parrotRequest('partywumpus', req, res)
 });
 
 app.get('/wales', (req, res) => {
-	parrotRequest('wales')
+	parrotRequest('wales', req, res)
 });
 
 app.get('/australiaparrot', (req, res) => {
-	parrotRequest('australiaparrot')
+	parrotRequest('australiaparrot', req, res)
 });
 
 app.get('/portalblueparrot', (req, res) => {
-	parrotRequest('portalblueparrot')
+	parrotRequest('portalblueparrot', req, res)
 });
 
 app.get('/ivorycoastparrot', (req, res) => {
-	parrotRequest('ivorycoastparrot')
+	parrotRequest('ivorycoastparrot', req, res)
 });
 
 app.get('/canadaparrot', (req, res) => {
-	parrotRequest('canadaparrot')
+	parrotRequest('canadaparrot', req, res)
 });
 
 app.get('/discoduck', (req, res) => {
-	parrotRequest('discoduck')
+	parrotRequest('discoduck', req, res)
 });
 
 app.get('/braveheartparrot', (req, res) => {
-	parrotRequest('braveheartparrot')
+	parrotRequest('braveheartparrot', req, res)
 });
 
 app.get('/germanyparrot', (req, res) => {
-	parrotRequest('germanyparrot')
+	parrotRequest('germanyparrot', req, res)
 });
 
 app.get('/czechrepublicparrot', (req, res) => {
-	parrotRequest('czechrepublicparrot')
+	parrotRequest('czechrepublicparrot', req, res)
 });
 
 app.get('/paraguayparrot', (req, res) => {
-	parrotRequest('paraguayparrot')
+	parrotRequest('paraguayparrot', req, res)
 });
 
 app.get('/qatarparrot', (req, res) => {
-	parrotRequest('qatarparrot')
+	parrotRequest('qatarparrot', req, res)
 });
 
 app.get('/jordanparrot', (req, res) => {
-	parrotRequest('jordanparrot')
+	parrotRequest('jordanparrot', req, res)
 });
 
 app.get('/maracasparrot', (req, res) => {
-	parrotRequest('maracasparrot')
+	parrotRequest('maracasparrot', req, res)
 });
 
 app.get('/trollparrot', (req, res) => {
-	parrotRequest('trollparrot')
+	parrotRequest('trollparrot', req, res)
 });
 
 app.get('/yemenparrot', (req, res) => {
-	parrotRequest('yemenparrot')
+	parrotRequest('yemenparrot', req, res)
 });
 
 app.get('/temporaltableparrot', (req, res) => {
-	parrotRequest('temporaltableparrot')
+	parrotRequest('temporaltableparrot', req, res)
 });
 
 app.get('/moonparrot', (req, res) => {
-	parrotRequest('moonparrot')
+	parrotRequest('moonparrot', req, res)
 });
 
 app.get('/freebelarusparrot', (req, res) => {
-	parrotRequest('freebelarusparrot')
+	parrotRequest('freebelarusparrot', req, res)
 });
 
 app.get('/taiwanparrot', (req, res) => {
-	parrotRequest('taiwanparrot')
+	parrotRequest('taiwanparrot', req, res)
 });
 
 app.get('/boliviaparrot', (req, res) => {
-	parrotRequest('boliviaparrot')
+	parrotRequest('boliviaparrot', req, res)
 });
 
 app.get('/norwegianblueparrot', (req, res) => {
-	parrotRequest('norwegianblueparrot')
+	parrotRequest('norwegianblueparrot', req, res)
 });
 
 app.get('/capsparrot', (req, res) => {
-	parrotRequest('capsparrot')
+	parrotRequest('capsparrot', req, res)
 });
 
 app.get('/tinfoilhatparrot', (req, res) => {
-	parrotRequest('tinfoilhatparrot')
+	parrotRequest('tinfoilhatparrot', req, res)
 });
 
 app.get('/cubaparrot', (req, res) => {
-	parrotRequest('cubaparrot')
+	parrotRequest('cubaparrot', req, res)
 });
 
 app.get('/christmasparrot', (req, res) => {
-	parrotRequest('christmasparrot')
+	parrotRequest('christmasparrot', req, res)
 });
 
 app.get('/covid19parrot', (req, res) => {
-	parrotRequest('covid19parrot')
+	parrotRequest('covid19parrot', req, res)
 });
 
 app.get('/tpparrot', (req, res) => {
-	parrotRequest('tpparrot')
+	parrotRequest('tpparrot', req, res)
 });
 
 app.get('/kosovoparrot', (req, res) => {
-	parrotRequest('kosovoparrot')
+	parrotRequest('kosovoparrot', req, res)
 });
 
 app.get('/srilankaparrot', (req, res) => {
-	parrotRequest('srilankaparrot')
+	parrotRequest('srilankaparrot', req, res)
 });
 
 app.get('/popcornparrot', (req, res) => {
-	parrotRequest('popcornparrot')
+	parrotRequest('popcornparrot', req, res)
 });
 
 app.get('/liberiaparrot', (req, res) => {
-	parrotRequest('liberiaparrot')
+	parrotRequest('liberiaparrot', req, res)
 });
 
 app.get('/mozambiqueparrot', (req, res) => {
-	parrotRequest('mozambiqueparrot')
+	parrotRequest('mozambiqueparrot', req, res)
 });
 
 app.get('/parrot', (req, res) => {
-	parrotRequest('parrot')
+	parrotRequest('parrot', req, res)
 });
 
 app.get('/kyrgyzstanparrot', (req, res) => {
-	parrotRequest('kyrgyzstanparrot')
+	parrotRequest('kyrgyzstanparrot', req, res)
 });
 
 app.get('/wfhparrot', (req, res) => {
-	parrotRequest('wfhparrot')
+	parrotRequest('wfhparrot', req, res)
 });
 
 app.get('/illuminatiparrot', (req, res) => {
-	parrotRequest('illuminatiparrot')
+	parrotRequest('illuminatiparrot', req, res)
 });
 
 app.get('/iranparrot', (req, res) => {
-	parrotRequest('iranparrot')
+	parrotRequest('iranparrot', req, res)
 });
 
 app.get('/reverseportalorangeparrot', (req, res) => {
-	parrotRequest('reverseportalorangeparrot')
+	parrotRequest('reverseportalorangeparrot', req, res)
 });
 
 app.get('/norwayparrot', (req, res) => {
-	parrotRequest('norwayparrot')
+	parrotRequest('norwayparrot', req, res)
 });
 
 app.get('/beretparrot', (req, res) => {
-	parrotRequest('beretparrot')
+	parrotRequest('beretparrot', req, res)
 });
 
 app.get('/meldparrot', (req, res) => {
-	parrotRequest('meldparrot')
+	parrotRequest('meldparrot', req, res)
 });
 
 app.get('/cakeparrot', (req, res) => {
-	parrotRequest('cakeparrot')
+	parrotRequest('cakeparrot', req, res)
 });
 
 app.get('/partyannoyedbird', (req, res) => {
-	parrotRequest('partyannoyedbird')
+	parrotRequest('partyannoyedbird', req, res)
 });
 
 app.get('/dadparrot', (req, res) => {
-	parrotRequest('dadparrot')
+	parrotRequest('dadparrot', req, res)
 });
 
 app.get('/monacoparrot', (req, res) => {
-	parrotRequest('monacoparrot')
+	parrotRequest('monacoparrot', req, res)
 });
 
 app.get('/headingparrot', (req, res) => {
-	parrotRequest('headingparrot')
+	parrotRequest('headingparrot', req, res)
 });
 
 app.get('/polandparrot', (req, res) => {
-	parrotRequest('polandparrot')
+	parrotRequest('polandparrot', req, res)
 });
 
 app.get('/zoukparrot', (req, res) => {
-	parrotRequest('zoukparrot')
+	parrotRequest('zoukparrot', req, res)
 });
 
 app.get('/spyparrot', (req, res) => {
-	parrotRequest('spyparrot')
+	parrotRequest('spyparrot', req, res)
 });
 
 app.get('/gambiaparrot', (req, res) => {
-	parrotRequest('gambiaparrot')
+	parrotRequest('gambiaparrot', req, res)
 });
 
 app.get('/nicaraguaparrot', (req, res) => {
-	parrotRequest('nicaraguaparrot')
+	parrotRequest('nicaraguaparrot', req, res)
 });
 
 app.get('/dominicaparrot', (req, res) => {
-	parrotRequest('dominicaparrot')
+	parrotRequest('dominicaparrot', req, res)
 });
 
 app.get('/sneezyparrot', (req, res) => {
-	parrotRequest('sneezyparrot')
+	parrotRequest('sneezyparrot', req, res)
 });
 
 app.get('/birthdaypartyparrot', (req, res) => {
-	parrotRequest('birthdaypartyparrot')
+	parrotRequest('birthdaypartyparrot', req, res)
 });
 
 app.get('/lesothoparrot', (req, res) => {
-	parrotRequest('lesothoparrot')
+	parrotRequest('lesothoparrot', req, res)
 });
 
 app.get('/stayhomeparrotcloser', (req, res) => {
-	parrotRequest('stayhomeparrotcloser')
+	parrotRequest('stayhomeparrotcloser', req, res)
 });
 
 app.get('/partygfm', (req, res) => {
-	parrotRequest('partygfm')
+	parrotRequest('partygfm', req, res)
 });
 
 app.get('/albaniaparrot', (req, res) => {
-	parrotRequest('albaniaparrot')
+	parrotRequest('albaniaparrot', req, res)
 });
 
 app.get('/everythingsfineparrot', (req, res) => {
-	parrotRequest('everythingsfineparrot')
+	parrotRequest('everythingsfineparrot', req, res)
 });
 
 app.get('/reactparrot', (req, res) => {
-	parrotRequest('reactparrot')
+	parrotRequest('reactparrot', req, res)
 });
 
 app.get('/revolutionparrot', (req, res) => {
-	parrotRequest('revolutionparrot')
+	parrotRequest('revolutionparrot', req, res)
 });
 
 app.get('/dailyparrot', (req, res) => {
-	parrotRequest('dailyparrot')
+	parrotRequest('dailyparrot', req, res)
 });
 
 app.get('/ultrafastparrot', (req, res) => {
-	parrotRequest('ultrafastparrot')
+	parrotRequest('ultrafastparrot', req, res)
 });
 
 app.get('/somalilandparrot', (req, res) => {
-	parrotRequest('somalilandparrot')
+	parrotRequest('somalilandparrot', req, res)
 });
 
 app.get('/antiguaandbarbudaparrot', (req, res) => {
-	parrotRequest('antiguaandbarbudaparrot')
+	parrotRequest('antiguaandbarbudaparrot', req, res)
 });
 
 app.get('/partyblob', (req, res) => {
-	parrotRequest('partyblob')
+	parrotRequest('partyblob', req, res)
 });
 
 app.get('/zimbabweparrot', (req, res) => {
-	parrotRequest('zimbabweparrot')
+	parrotRequest('zimbabweparrot', req, res)
 });
 
 app.get('/djiboutiparrot', (req, res) => {
-	parrotRequest('djiboutiparrot')
+	parrotRequest('djiboutiparrot', req, res)
 });
 
 app.get('/soccerparrot', (req, res) => {
-	parrotRequest('soccerparrot')
+	parrotRequest('soccerparrot', req, res)
 });
 
 app.get('/dealwithitnowparrot', (req, res) => {
-	parrotRequest('dealwithitnowparrot')
+	parrotRequest('dealwithitnowparrot', req, res)
 });
 
 app.get('/southsudanparrot', (req, res) => {
-	parrotRequest('southsudanparrot')
+	parrotRequest('southsudanparrot', req, res)
 });
 
 app.get('/mergeconflictparrot', (req, res) => {
-	parrotRequest('mergeconflictparrot')
+	parrotRequest('mergeconflictparrot', req, res)
 });
 
 app.get('/burkinafasoparrot', (req, res) => {
-	parrotRequest('burkinafasoparrot')
+	parrotRequest('burkinafasoparrot', req, res)
 });
 
 app.get('/mateparrot', (req, res) => {
-	parrotRequest('mateparrot')
+	parrotRequest('mateparrot', req, res)
 });
 
 app.get('/chicoparrot', (req, res) => {
-	parrotRequest('chicoparrot')
+	parrotRequest('chicoparrot', req, res)
 });
 
 app.get('/kazakhstanparrot', (req, res) => {
-	parrotRequest('kazakhstanparrot')
+	parrotRequest('kazakhstanparrot', req, res)
 });
 
 app.get('/calvinist_parrot', (req, res) => {
-	parrotRequest('calvinist_parrot')
+	parrotRequest('calvinist_parrot', req, res)
 });
 
 app.get('/aussiecongaparrot', (req, res) => {
-	parrotRequest('aussiecongaparrot')
+	parrotRequest('aussiecongaparrot', req, res)
 });
 
 app.get('/brazilparrot', (req, res) => {
-	parrotRequest('brazilparrot')
+	parrotRequest('brazilparrot', req, res)
 });
 
 app.get('/greekmacedoniaparrot', (req, res) => {
-	parrotRequest('greekmacedoniaparrot')
+	parrotRequest('greekmacedoniaparrot', req, res)
 });
 
 app.get('/angelparrot', (req, res) => {
-	parrotRequest('angelparrot')
+	parrotRequest('angelparrot', req, res)
 });
 
 app.get('/partypicard', (req, res) => {
-	parrotRequest('partypicard')
+	parrotRequest('partypicard', req, res)
 });
 
 app.get('/deletedparrot', (req, res) => {
-	parrotRequest('deletedparrot')
+	parrotRequest('deletedparrot', req, res)
 });
 
 app.get('/costaricaparrot', (req, res) => {
-	parrotRequest('costaricaparrot')
+	parrotRequest('costaricaparrot', req, res)
 });
 
 app.get('/glimpseparrot', (req, res) => {
-	parrotRequest('glimpseparrot')
+	parrotRequest('glimpseparrot', req, res)
 });
 
 app.get('/reverseparrot', (req, res) => {
-	parrotRequest('reverseparrot')
+	parrotRequest('reverseparrot', req, res)
 });
 
 app.get('/scotland', (req, res) => {
-	parrotRequest('scotland')
+	parrotRequest('scotland', req, res)
 });
 
 app.get('/zombieparrot', (req, res) => {
-	parrotRequest('zombieparrot')
+	parrotRequest('zombieparrot', req, res)
 });
 
 app.get('/chefparrot', (req, res) => {
-	parrotRequest('chefparrot')
+	parrotRequest('chefparrot', req, res)
 });
 
 app.get('/uzbekistanparrot', (req, res) => {
-	parrotRequest('uzbekistanparrot')
+	parrotRequest('uzbekistanparrot', req, res)
 });
 
 app.get('/unitedstatesofamericaparrot', (req, res) => {
-	parrotRequest('unitedstatesofamericaparrot')
+	parrotRequest('unitedstatesofamericaparrot', req, res)
 });
 
 app.get('/hackerparrot', (req, res) => {
-	parrotRequest('hackerparrot')
+	parrotRequest('hackerparrot', req, res)
 });
 
 app.get('/belizeparrot', (req, res) => {
-	parrotRequest('belizeparrot')
+	parrotRequest('belizeparrot', req, res)
 });
 
 app.get('/hmmparrot', (req, res) => {
-	parrotRequest('hmmparrot')
+	parrotRequest('hmmparrot', req, res)
 });
 
 app.get('/irelandparrot', (req, res) => {
-	parrotRequest('irelandparrot')
+	parrotRequest('irelandparrot', req, res)
 });
 
 app.get('/omanparrot', (req, res) => {
-	parrotRequest('omanparrot')
+	parrotRequest('omanparrot', req, res)
 });
 
 app.get('/barbadosparrot', (req, res) => {
-	parrotRequest('barbadosparrot')
+	parrotRequest('barbadosparrot', req, res)
 });
 
 app.get('/pingpongparrot', (req, res) => {
-	parrotRequest('pingpongparrot')
+	parrotRequest('pingpongparrot', req, res)
 });
 
 app.get('/invisibleparrot', (req, res) => {
-	parrotRequest('invisibleparrot')
+	parrotRequest('invisibleparrot', req, res)
 });
 
 app.get('/stableparrot', (req, res) => {
-	parrotRequest('stableparrot')
+	parrotRequest('stableparrot', req, res)
 });
 
 app.get('/prideparrot', (req, res) => {
-	parrotRequest('prideparrot')
+	parrotRequest('prideparrot', req, res)
 });
 
 app.get('/bunnyparrot', (req, res) => {
-	parrotRequest('bunnyparrot')
+	parrotRequest('bunnyparrot', req, res)
 });
 
 app.get('/old-man-yells-at-parrot', (req, res) => {
-	parrotRequest('old-man-yells-at-parrot')
+	parrotRequest('old-man-yells-at-parrot', req, res)
 });
 
 app.get('/transparrot', (req, res) => {
-	parrotRequest('transparrot')
+	parrotRequest('transparrot', req, res)
 });
 
 app.get('/hungaryparrot', (req, res) => {
-	parrotRequest('hungaryparrot')
+	parrotRequest('hungaryparrot', req, res)
 });
 
 app.get('/somaliaparrot', (req, res) => {
-	parrotRequest('somaliaparrot')
+	parrotRequest('somaliaparrot', req, res)
 });
 
 app.get('/eritreaparrot', (req, res) => {
-	parrotRequest('eritreaparrot')
+	parrotRequest('eritreaparrot', req, res)
 });
 
 app.get('/transparront', (req, res) => {
-	parrotRequest('transparront')
+	parrotRequest('transparront', req, res)
 });
 
 app.get('/kuwaitparrot', (req, res) => {
-	parrotRequest('kuwaitparrot')
+	parrotRequest('kuwaitparrot', req, res)
 });
 
 app.get('/donutparrot', (req, res) => {
-	parrotRequest('donutparrot')
+	parrotRequest('donutparrot', req, res)
 });
 
 app.get('/marshmallowparrot', (req, res) => {
-	parrotRequest('marshmallowparrot')
+	parrotRequest('marshmallowparrot', req, res)
 });
 
 app.get('/thankyouparrot', (req, res) => {
-	parrotRequest('thankyouparrot')
+	parrotRequest('thankyouparrot', req, res)
 });
 
 app.get('/shortparrot', (req, res) => {
-	parrotRequest('shortparrot')
+	parrotRequest('shortparrot', req, res)
 });
 
 app.get('/falklandislandsparrot', (req, res) => {
-	parrotRequest('falklandislandsparrot')
+	parrotRequest('falklandislandsparrot', req, res)
 });
 
 app.get('/belgiumparrot', (req, res) => {
-	parrotRequest('belgiumparrot')
+	parrotRequest('belgiumparrot', req, res)
 });
 
 app.get('/nigeriaparrot', (req, res) => {
-	parrotRequest('nigeriaparrot')
+	parrotRequest('nigeriaparrot', req, res)
 });
 
 app.get('/inverseparrot', (req, res) => {
-	parrotRequest('inverseparrot')
+	parrotRequest('inverseparrot', req, res)
 });
 
 app.get('/swedenparrot', (req, res) => {
-	parrotRequest('swedenparrot')
+	parrotRequest('swedenparrot', req, res)
 });
 
 app.get('/denmarkparrot', (req, res) => {
-	parrotRequest('denmarkparrot')
+	parrotRequest('denmarkparrot', req, res)
 });
 
 app.get('/partykeanu', (req, res) => {
-	parrotRequest('partykeanu')
+	parrotRequest('partykeanu', req, res)
 });
 
 app.get('/botswanaparrot', (req, res) => {
-	parrotRequest('botswanaparrot')
+	parrotRequest('botswanaparrot', req, res)
 });
 
 app.get('/croatiaparrot', (req, res) => {
-	parrotRequest('croatiaparrot')
+	parrotRequest('croatiaparrot', req, res)
 });
 
 app.get('/maldivesparrot', (req, res) => {
-	parrotRequest('maldivesparrot')
+	parrotRequest('maldivesparrot', req, res)
 });
 
 app.get('/reversecongaparrot', (req, res) => {
-	parrotRequest('reversecongaparrot')
+	parrotRequest('reversecongaparrot', req, res)
 });
 
 app.get('/madagascarparrot', (req, res) => {
-	parrotRequest('madagascarparrot')
+	parrotRequest('madagascarparrot', req, res)
 });
 
 app.get('/equatorialguineaparrot', (req, res) => {
-	parrotRequest('equatorialguineaparrot')
+	parrotRequest('equatorialguineaparrot', req, res)
 });
 
 app.get('/bahrainparrot', (req, res) => {
-	parrotRequest('bahrainparrot')
+	parrotRequest('bahrainparrot', req, res)
 });
 
 app.get('/jediparrot', (req, res) => {
-	parrotRequest('jediparrot')
+	parrotRequest('jediparrot', req, res)
 });
 
 app.get('/discoparrot', (req, res) => {
-	parrotRequest('discoparrot')
+	parrotRequest('discoparrot', req, res)
 });
 
 app.get('/partygritty', (req, res) => {
-	parrotRequest('partygritty')
+	parrotRequest('partygritty', req, res)
 });
 
 app.get('/grenadaparrot', (req, res) => {
-	parrotRequest('grenadaparrot')
+	parrotRequest('grenadaparrot', req, res)
 });
 
 app.get('/michaeljacksonparrot', (req, res) => {
-	parrotRequest('michaeljacksonparrot')
+	parrotRequest('michaeljacksonparrot', req, res)
 });
 
 app.get('/netherlandsparrot', (req, res) => {
-	parrotRequest('netherlandsparrot')
+	parrotRequest('netherlandsparrot', req, res)
 });
 
 app.get('/redhatparrot', (req, res) => {
-	parrotRequest('redhatparrot')
+	parrotRequest('redhatparrot', req, res)
 });
 
 app.get('/micronesiaparrot', (req, res) => {
-	parrotRequest('micronesiaparrot')
+	parrotRequest('micronesiaparrot', req, res)
 });
 
 app.get('/chileparrot', (req, res) => {
-	parrotRequest('chileparrot')
+	parrotRequest('chileparrot', req, res)
 });
 
 app.get('/libyaparrot', (req, res) => {
-	parrotRequest('libyaparrot')
+	parrotRequest('libyaparrot', req, res)
 });
 
 app.get('/chadparrot', (req, res) => {
-	parrotRequest('chadparrot')
+	parrotRequest('chadparrot', req, res)
 });
 
 app.get('/pirateparrot', (req, res) => {
-	parrotRequest('pirateparrot')
+	parrotRequest('pirateparrot', req, res)
 });
 
 app.get('/resonatingredparrot', (req, res) => {
-	parrotRequest('resonatingredparrot')
+	parrotRequest('resonatingredparrot', req, res)
 });
 
 app.get('/stayhomeparrot', (req, res) => {
-	parrotRequest('stayhomeparrot')
+	parrotRequest('stayhomeparrot', req, res)
 });
 
 app.get('/chefkissparrot', (req, res) => {
-	parrotRequest('chefkissparrot')
+	parrotRequest('chefkissparrot', req, res)
 });
 
 app.get('/republicofthecongoparrot', (req, res) => {
-	parrotRequest('republicofthecongoparrot')
+	parrotRequest('republicofthecongoparrot', req, res)
 });
 
 app.get('/grouchoparrot', (req, res) => {
-	parrotRequest('grouchoparrot')
+	parrotRequest('grouchoparrot', req, res)
 });
 
 app.get('/mustacheparrot', (req, res) => {
-	parrotRequest('mustacheparrot')
+	parrotRequest('mustacheparrot', req, res)
 });
 
 app.get('/northern-ireland-st-patricks-saltire', (req, res) => {
-	parrotRequest('northern-ireland-st-patricks-saltire')
+	parrotRequest('northern-ireland-st-patricks-saltire', req, res)
 });
 
 app.get('/bikerparrot', (req, res) => {
-	parrotRequest('bikerparrot')
+	parrotRequest('bikerparrot', req, res)
 });
 
 app.get('/finlandparrot', (req, res) => {
-	parrotRequest('finlandparrot')
+	parrotRequest('finlandparrot', req, res)
 });
 
 app.get('/hypnoparrotlight', (req, res) => {
-	parrotRequest('hypnoparrotlight')
+	parrotRequest('hypnoparrotlight', req, res)
 });
 
 app.get('/darkmodeparrot', (req, res) => {
-	parrotRequest('darkmodeparrot')
+	parrotRequest('darkmodeparrot', req, res)
 });
 
 app.get('/franceparrot', (req, res) => {
-	parrotRequest('franceparrot')
+	parrotRequest('franceparrot', req, res)
 });
 
 app.get('/copparrot', (req, res) => {
-	parrotRequest('copparrot')
+	parrotRequest('copparrot', req, res)
 });
 
 app.get('/rubyparrot', (req, res) => {
-	parrotRequest('rubyparrot')
+	parrotRequest('rubyparrot', req, res)
 });
 
 app.get('/euparrot', (req, res) => {
-	parrotRequest('euparrot')
+	parrotRequest('euparrot', req, res)
 });
 
 app.get('/blurryparrot', (req, res) => {
-	parrotRequest('blurryparrot')
+	parrotRequest('blurryparrot', req, res)
 });
 
 app.get('/whitewalkerparrot', (req, res) => {
-	parrotRequest('whitewalkerparrot')
+	parrotRequest('whitewalkerparrot', req, res)
 });
 
 app.get('/senegalparrot', (req, res) => {
-	parrotRequest('senegalparrot')
+	parrotRequest('senegalparrot', req, res)
 });
 
 app.get('/kiribatiparrot', (req, res) => {
-	parrotRequest('kiribatiparrot')
+	parrotRequest('kiribatiparrot', req, res)
 });
 
 app.get('/thumbsupparrot', (req, res) => {
-	parrotRequest('thumbsupparrot')
+	parrotRequest('thumbsupparrot', req, res)
 });
 
 app.get('/turndownforwatchparrot', (req, res) => {
-	parrotRequest('turndownforwatchparrot')
+	parrotRequest('turndownforwatchparrot', req, res)
 });
 
 app.get('/puertoricoparrot', (req, res) => {
-	parrotRequest('puertoricoparrot')
+	parrotRequest('puertoricoparrot', req, res)
 });
 
 app.get('/badparrot', (req, res) => {
-	parrotRequest('badparrot')
+	parrotRequest('badparrot', req, res)
 });
 
 app.get('/bangladeshparrot', (req, res) => {
-	parrotRequest('bangladeshparrot')
+	parrotRequest('bangladeshparrot', req, res)
 });
 
 app.get('/england', (req, res) => {
-	parrotRequest('england')
+	parrotRequest('england', req, res)
 });
 
 app.get('/partyfsjal', (req, res) => {
-	parrotRequest('partyfsjal')
+	parrotRequest('partyfsjal', req, res)
 });
 
 app.get('/capeverdeparrot', (req, res) => {
-	parrotRequest('capeverdeparrot')
+	parrotRequest('capeverdeparrot', req, res)
 });
 
 app.get('/venezuelaparrot', (req, res) => {
-	parrotRequest('venezuelaparrot')
+	parrotRequest('venezuelaparrot', req, res)
 });
 
 app.get('/vibepartycat', (req, res) => {
-	parrotRequest('vibepartycat')
+	parrotRequest('vibepartycat', req, res)
 });
 
 app.get('/peruparrot', (req, res) => {
-	parrotRequest('peruparrot')
+	parrotRequest('peruparrot', req, res)
 });
 
 app.get('/parrotnotfound', (req, res) => {
-	parrotRequest('parrotnotfound')
+	parrotRequest('parrotnotfound', req, res)
 });
 
 app.get('/beninparrot', (req, res) => {
-	parrotRequest('beninparrot')
+	parrotRequest('beninparrot', req, res)
 });
 
 app.get('/ethiopiaparrot', (req, res) => {
-	parrotRequest('ethiopiaparrot')
+	parrotRequest('ethiopiaparrot', req, res)
 });
 
 app.get('/algeriaparrot', (req, res) => {
-	parrotRequest('algeriaparrot')
+	parrotRequest('algeriaparrot', req, res)
 });
 
 app.get('/witnessprotectionparrot', (req, res) => {
-	parrotRequest('witnessprotectionparrot')
+	parrotRequest('witnessprotectionparrot', req, res)
 });
 
 app.get('/andorraparrot', (req, res) => {
-	parrotRequest('andorraparrot')
+	parrotRequest('andorraparrot', req, res)
 });
 
 app.get('/unitedarabemiratesparrot', (req, res) => {
-	parrotRequest('unitedarabemiratesparrot')
+	parrotRequest('unitedarabemiratesparrot', req, res)
 });
 
 app.get('/dogeparrot', (req, res) => {
-	parrotRequest('dogeparrot')
+	parrotRequest('dogeparrot', req, res)
 });
 
 app.get('/slovakiaparrot', (req, res) => {
-	parrotRequest('slovakiaparrot')
+	parrotRequest('slovakiaparrot', req, res)
 });
 
 app.get('/nauruparrot', (req, res) => {
-	parrotRequest('nauruparrot')
+	parrotRequest('nauruparrot', req, res)
 });
 
 app.get('/saotomeandprincipeparrot', (req, res) => {
-	parrotRequest('saotomeandprincipeparrot')
+	parrotRequest('saotomeandprincipeparrot', req, res)
 });
 
 app.get('/hongkongparrot', (req, res) => {
-	parrotRequest('hongkongparrot')
+	parrotRequest('hongkongparrot', req, res)
 });
 
 app.get('/namibiaparrot', (req, res) => {
-	parrotRequest('namibiaparrot')
+	parrotRequest('namibiaparrot', req, res)
 });
 
 app.get('/solomonislandsparrot', (req, res) => {
-	parrotRequest('solomonislandsparrot')
+	parrotRequest('solomonislandsparrot', req, res)
 });
 
 app.get('/60fpsparrot', (req, res) => {
-	parrotRequest('60fpsparrot')
+	parrotRequest('60fpsparrot', req, res)
 });
 
 app.get('/sassyparrot', (req, res) => {
-	parrotRequest('sassyparrot')
+	parrotRequest('sassyparrot', req, res)
 });
 
 app.get('/thefastestparrot', (req, res) => {
-	parrotRequest('thefastestparrot')
+	parrotRequest('thefastestparrot', req, res)
 });
 
 app.get('/hardhatparrot', (req, res) => {
-	parrotRequest('hardhatparrot')
+	parrotRequest('hardhatparrot', req, res)
 });
 
 app.get('/preetjusticeparrot', (req, res) => {
-	parrotRequest('preetjusticeparrot')
+	parrotRequest('preetjusticeparrot', req, res)
 });
 
 app.get('/partymoogle', (req, res) => {
-	parrotRequest('partymoogle')
+	parrotRequest('partymoogle', req, res)
 });
 
 app.get('/saintvincentandthegrenadinesparrot', (req, res) => {
-	parrotRequest('saintvincentandthegrenadinesparrot')
+	parrotRequest('saintvincentandthegrenadinesparrot', req, res)
 });
 
 app.get('/burundiparrot', (req, res) => {
-	parrotRequest('burundiparrot')
+	parrotRequest('burundiparrot', req, res)
 });
 
 app.get('/portugalparrot', (req, res) => {
-	parrotRequest('portugalparrot')
+	parrotRequest('portugalparrot', req, res)
 });
 
 app.get('/indiaparrot', (req, res) => {
-	parrotRequest('indiaparrot')
+	parrotRequest('indiaparrot', req, res)
 });
 
 app.get('/tongaparrot', (req, res) => {
-	parrotRequest('tongaparrot')
+	parrotRequest('tongaparrot', req, res)
 });
 
 app.get('/artsakhparrot', (req, res) => {
-	parrotRequest('artsakhparrot')
+	parrotRequest('artsakhparrot', req, res)
 });
 
 app.get('/greeceparrot', (req, res) => {
-	parrotRequest('greeceparrot')
+	parrotRequest('greeceparrot', req, res)
 });
 
 app.get('/flowerparrot', (req, res) => {
-	parrotRequest('flowerparrot')
+	parrotRequest('flowerparrot', req, res)
 });
 
 app.get('/twinsparrot', (req, res) => {
-	parrotRequest('twinsparrot')
+	parrotRequest('twinsparrot', req, res)
 });
 
 app.get('/spinningparrot', (req, res) => {
-	parrotRequest('spinningparrot')
+	parrotRequest('spinningparrot', req, res)
 });
 
 app.get('/tunisiaparrot', (req, res) => {
-	parrotRequest('tunisiaparrot')
+	parrotRequest('tunisiaparrot', req, res)
 });
 
 app.get('/ugandaparrot', (req, res) => {
-	parrotRequest('ugandaparrot')
+	parrotRequest('ugandaparrot', req, res)
 });
 
 app.get('/eswatiniparrot', (req, res) => {
-	parrotRequest('eswatiniparrot')
+	parrotRequest('eswatiniparrot', req, res)
 });
 
 app.get('/seychellesparrot', (req, res) => {
-	parrotRequest('seychellesparrot')
+	parrotRequest('seychellesparrot', req, res)
 });
 
 app.get('/macauparrot', (req, res) => {
-	parrotRequest('macauparrot')
+	parrotRequest('macauparrot', req, res)
 });
 
 app.get('/comorosparrot', (req, res) => {
-	parrotRequest('comorosparrot')
+	parrotRequest('comorosparrot', req, res)
 });
 
 app.get('/tennisparrot', (req, res) => {
-	parrotRequest('tennisparrot')
+	parrotRequest('tennisparrot', req, res)
 });
 
 app.get('/mauritiusparrot', (req, res) => {
-	parrotRequest('mauritiusparrot')
+	parrotRequest('mauritiusparrot', req, res)
 });
 
 app.get('/angolaparrot', (req, res) => {
-	parrotRequest('angolaparrot')
+	parrotRequest('angolaparrot', req, res)
 });
 
 app.get('/greenlandparrot', (req, res) => {
-	parrotRequest('greenlandparrot')
+	parrotRequest('greenlandparrot', req, res)
 });
 
 app.get('/brazilianplayerparrot', (req, res) => {
-	parrotRequest('brazilianplayerparrot')
+	parrotRequest('brazilianplayerparrot', req, res)
 });
 
 app.get('/democraticrepublicofthecongoparrot', (req, res) => {
-	parrotRequest('democraticrepublicofthecongoparrot')
+	parrotRequest('democraticrepublicofthecongoparrot', req, res)
 });
 
 app.get('/sidewaysparrot', (req, res) => {
-	parrotRequest('sidewaysparrot')
+	parrotRequest('sidewaysparrot', req, res)
 });
 
 app.get('/moldovaparrot', (req, res) => {
-	parrotRequest('moldovaparrot')
+	parrotRequest('moldovaparrot', req, res)
 });
 
 app.get('/bouncingparrot', (req, res) => {
-	parrotRequest('bouncingparrot')
+	parrotRequest('bouncingparrot', req, res)
 });
 
 app.get('/ghanaparrot', (req, res) => {
-	parrotRequest('ghanaparrot')
+	parrotRequest('ghanaparrot', req, res)
 });
 
 app.get('/ripparrot', (req, res) => {
-	parrotRequest('ripparrot')
+	parrotRequest('ripparrot', req, res)
 });
 
 app.get('/antarcticaparrot', (req, res) => {
-	parrotRequest('antarcticaparrot')
+	parrotRequest('antarcticaparrot', req, res)
 });
 
 app.get('/mardigrasparrot', (req, res) => {
-	parrotRequest('mardigrasparrot')
+	parrotRequest('mardigrasparrot', req, res)
 });
 
 app.get('/mexicoparrot', (req, res) => {
-	parrotRequest('mexicoparrot')
+	parrotRequest('mexicoparrot', req, res)
 });
 
 app.get('/centralafricanrepublicparrot', (req, res) => {
-	parrotRequest('centralafricanrepublicparrot')
+	parrotRequest('centralafricanrepublicparrot', req, res)
 });
 
 app.get('/syriaparrot', (req, res) => {
-	parrotRequest('syriaparrot')
+	parrotRequest('syriaparrot', req, res)
 });
 
 app.get('/southossetiaparrot', (req, res) => {
-	parrotRequest('southossetiaparrot')
+	parrotRequest('southossetiaparrot', req, res)
 });
 
 app.get('/iraqparrot', (req, res) => {
-	parrotRequest('iraqparrot')
+	parrotRequest('iraqparrot', req, res)
 });
 
 app.get('/evilparrot', (req, res) => {
-	parrotRequest('evilparrot')
+	parrotRequest('evilparrot', req, res)
 });
 
 app.get('/georgiaparrot', (req, res) => {
-	parrotRequest('georgiaparrot')
+	parrotRequest('georgiaparrot', req, res)
 });
 
 app.get('/phparrot', (req, res) => {
-	parrotRequest('phparrot')
+	parrotRequest('phparrot', req, res)
 });
 
 app.get('/vaticancityparrot', (req, res) => {
-	parrotRequest('vaticancityparrot')
+	parrotRequest('vaticancityparrot', req, res)
 });
 
 app.get('/spainparrot', (req, res) => {
-	parrotRequest('spainparrot')
+	parrotRequest('spainparrot', req, res)
 });
 
 app.get('/githubparrot', (req, res) => {
-	parrotRequest('githubparrot')
+	parrotRequest('githubparrot', req, res)
 });
 
 app.get('/kenyaparrot', (req, res) => {
-	parrotRequest('kenyaparrot')
+	parrotRequest('kenyaparrot', req, res)
 });
 
 app.get('/unicornparrot', (req, res) => {
-	parrotRequest('unicornparrot')
+	parrotRequest('unicornparrot', req, res)
 });
 
 app.get('/playcatchrightparrot', (req, res) => {
-	parrotRequest('playcatchrightparrot')
+	parrotRequest('playcatchrightparrot', req, res)
 });
 
 app.get('/hypnoparrot', (req, res) => {
-	parrotRequest('hypnoparrot')
+	parrotRequest('hypnoparrot', req, res)
 });
 
 app.get('/palestineparrot', (req, res) => {
-	parrotRequest('palestineparrot')
+	parrotRequest('palestineparrot', req, res)
 });
 
 app.get('/verticalparrot', (req, res) => {
-	parrotRequest('verticalparrot')
+	parrotRequest('verticalparrot', req, res)
 });
 
 app.get('/colombiaparrot', (req, res) => {
-	parrotRequest('colombiaparrot')
+	parrotRequest('colombiaparrot', req, res)
 });
 
 app.get('/moonwalkingparrot', (req, res) => {
-	parrotRequest('moonwalkingparrot')
+	parrotRequest('moonwalkingparrot', req, res)
 });
 
 app.get('/autonomousparrot', (req, res) => {
-	parrotRequest('autonomousparrot')
+	parrotRequest('autonomousparrot', req, res)
 });app.listen(port, () => {
 	console.log(`Server started at http://localhost:${port}`);
 });

@@ -27,7 +27,7 @@ for file in os.listdir(directory):
         newData = f.read()
 
     with open("app.js", "a") as f:
-        f.write(f"\n\napp.get('/{filename}', (req, res) => {{\n\tparrotRequest('{filename}')\n}});")
+        f.write(f"\n\napp.get('/{filename}', (req, res) => {{\n\tparrotRequest('{filename}', req, res)\n}});")
 
     parrots.append(filename)
 
