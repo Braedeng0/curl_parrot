@@ -1,12 +1,16 @@
 const express = require('express');
 const fs = require('fs');
 const app = express();
-const port = 80;app.get('/', (req, res) => {
+const port = 80;
+
+app.get('/', (req, res) => {
 	res.redirect('https://github.com/Braedeng0/curl_parrot');
 });
+
 app.get('/help', (req, res) => {
 	res.sendFile(__dirname + '/README.md');
 });
+
 function parrotRequest(parrot, req, res) {
     let filename = parrot;
 
@@ -55,6 +59,14 @@ app.get('/balconyparrot', (req, res) => {
 	parrotRequest('balconyparrot', req, res)
 });
 
+app.get('/threadparrot', (req, res) => {
+	parrotRequest('threadparrot', req, res)
+});
+
+app.get('/explodyparrot', (req, res) => {
+	parrotRequest('explodyparrot', req, res)
+});
+
 app.get('/bulgariaparrot', (req, res) => {
 	parrotRequest('bulgariaparrot', req, res)
 });
@@ -75,8 +87,16 @@ app.get('/singaporeparrot', (req, res) => {
 	parrotRequest('singaporeparrot', req, res)
 });
 
+app.get('/uparrowparrot', (req, res) => {
+	parrotRequest('uparrowparrot', req, res)
+});
+
 app.get('/vaccineparrot', (req, res) => {
 	parrotRequest('vaccineparrot', req, res)
+});
+
+app.get('/schnitzelparrot', (req, res) => {
+	parrotRequest('schnitzelparrot', req, res)
 });
 
 app.get('/sudanparrot', (req, res) => {
@@ -87,8 +107,16 @@ app.get('/gabonparrot', (req, res) => {
 	parrotRequest('gabonparrot', req, res)
 });
 
+app.get('/wave3parrot', (req, res) => {
+	parrotRequest('wave3parrot', req, res)
+});
+
 app.get('/italyparrot', (req, res) => {
 	parrotRequest('italyparrot', req, res)
+});
+
+app.get('/halalparrot', (req, res) => {
+	parrotRequest('halalparrot', req, res)
 });
 
 app.get('/hondurasparrot', (req, res) => {
@@ -117,6 +145,10 @@ app.get('/surinameparrot', (req, res) => {
 
 app.get('/romaniaparrot', (req, res) => {
 	parrotRequest('romaniaparrot', req, res)
+});
+
+app.get('/chillparrot', (req, res) => {
+	parrotRequest('chillparrot', req, res)
 });
 
 app.get('/bahamasparrot', (req, res) => {
@@ -175,12 +207,20 @@ app.get('/argentinaparrot', (req, res) => {
 	parrotRequest('argentinaparrot', req, res)
 });
 
+app.get('/minionparrot', (req, res) => {
+	parrotRequest('minionparrot', req, res)
+});
+
 app.get('/bhutanparrot', (req, res) => {
 	parrotRequest('bhutanparrot', req, res)
 });
 
 app.get('/gothparrot', (req, res) => {
 	parrotRequest('gothparrot', req, res)
+});
+
+app.get('/dizzyparrot', (req, res) => {
+	parrotRequest('dizzyparrot', req, res)
 });
 
 app.get('/guatemalaparrot', (req, res) => {
@@ -199,6 +239,10 @@ app.get('/dominicanrepublicparrot', (req, res) => {
 	parrotRequest('dominicanrepublicparrot', req, res)
 });
 
+app.get('/drupal_parrot', (req, res) => {
+	parrotRequest('drupal_parrot', req, res)
+});
+
 app.get('/docparrot', (req, res) => {
 	parrotRequest('docparrot', req, res)
 });
@@ -213,6 +257,10 @@ app.get('/panamaparrot', (req, res) => {
 
 app.get('/picassoparrot', (req, res) => {
 	parrotRequest('picassoparrot', req, res)
+});
+
+app.get('/darkbeerparrot', (req, res) => {
+	parrotRequest('darkbeerparrot', req, res)
 });
 
 app.get('/jumpingparrotjr', (req, res) => {
@@ -235,8 +283,16 @@ app.get('/pumpkinparrot', (req, res) => {
 	parrotRequest('pumpkinparrot', req, res)
 });
 
+app.get('/loveparrot', (req, res) => {
+	parrotRequest('loveparrot', req, res)
+});
+
 app.get('/newzealandparrot', (req, res) => {
 	parrotRequest('newzealandparrot', req, res)
+});
+
+app.get('/icecreamparrot', (req, res) => {
+	parrotRequest('icecreamparrot', req, res)
 });
 
 app.get('/quadparrot', (req, res) => {
@@ -245,6 +301,10 @@ app.get('/quadparrot', (req, res) => {
 
 app.get('/kindasusparrot', (req, res) => {
 	parrotRequest('kindasusparrot', req, res)
+});
+
+app.get('/slomoparrot', (req, res) => {
+	parrotRequest('slomoparrot', req, res)
 });
 
 app.get('/shuffleparrot', (req, res) => {
@@ -299,12 +359,20 @@ app.get('/austriaparrot', (req, res) => {
 	parrotRequest('austriaparrot', req, res)
 });
 
+app.get('/deployparrot', (req, res) => {
+	parrotRequest('deployparrot', req, res)
+});
+
 app.get('/togoparrot', (req, res) => {
 	parrotRequest('togoparrot', req, res)
 });
 
 app.get('/batparrot', (req, res) => {
 	parrotRequest('batparrot', req, res)
+});
+
+app.get('/bananaparrot', (req, res) => {
+	parrotRequest('bananaparrot', req, res)
 });
 
 app.get('/thisisfineparrot', (req, res) => {
@@ -359,6 +427,10 @@ app.get('/ukraineparrot', (req, res) => {
 	parrotRequest('ukraineparrot', req, res)
 });
 
+app.get('/papalparrot', (req, res) => {
+	parrotRequest('papalparrot', req, res)
+});
+
 app.get('/guineaparrot', (req, res) => {
 	parrotRequest('guineaparrot', req, res)
 });
@@ -395,6 +467,10 @@ app.get('/daftpunkparrot', (req, res) => {
 	parrotRequest('daftpunkparrot', req, res)
 });
 
+app.get('/shufflepartyparrot', (req, res) => {
+	parrotRequest('shufflepartyparrot', req, res)
+});
+
 app.get('/boomparrot', (req, res) => {
 	parrotRequest('boomparrot', req, res)
 });
@@ -409,6 +485,14 @@ app.get('/sanmarinoparrot', (req, res) => {
 
 app.get('/redenvelopeparrot', (req, res) => {
 	parrotRequest('redenvelopeparrot', req, res)
+});
+
+app.get('/fidgetparrot', (req, res) => {
+	parrotRequest('fidgetparrot', req, res)
+});
+
+app.get('/wave5parrot', (req, res) => {
+	parrotRequest('wave5parrot', req, res)
 });
 
 app.get('/indonesiaparrot', (req, res) => {
@@ -457,6 +541,10 @@ app.get('/afghanistanparrot', (req, res) => {
 
 app.get('/saintluciaparrot', (req, res) => {
 	parrotRequest('saintluciaparrot', req, res)
+});
+
+app.get('/standupparrot', (req, res) => {
+	parrotRequest('standupparrot', req, res)
 });
 
 app.get('/horizontalparrot', (req, res) => {
@@ -547,6 +635,10 @@ app.get('/middleparrot', (req, res) => {
 	parrotRequest('middleparrot', req, res)
 });
 
+app.get('/wave8parrot', (req, res) => {
+	parrotRequest('wave8parrot', req, res)
+});
+
 app.get('/guineabissauparrot', (req, res) => {
 	parrotRequest('guineabissauparrot', req, res)
 });
@@ -579,6 +671,14 @@ app.get('/hanamiparrot', (req, res) => {
 	parrotRequest('hanamiparrot', req, res)
 });
 
+app.get('/wave2parrot', (req, res) => {
+	parrotRequest('wave2parrot', req, res)
+});
+
+app.get('/upvoteparrot', (req, res) => {
+	parrotRequest('upvoteparrot', req, res)
+});
+
 app.get('/israelparrot', (req, res) => {
 	parrotRequest('israelparrot', req, res)
 });
@@ -601,6 +701,10 @@ app.get('/westernsaharaparrot', (req, res) => {
 
 app.get('/raceconditionparrot', (req, res) => {
 	parrotRequest('raceconditionparrot', req, res)
+});
+
+app.get('/oriolesparrot', (req, res) => {
+	parrotRequest('oriolesparrot', req, res)
 });
 
 app.get('/gentlemanparrot', (req, res) => {
@@ -659,6 +763,14 @@ app.get('/unitedkingdomparrot', (req, res) => {
 	parrotRequest('unitedkingdomparrot', req, res)
 });
 
+app.get('/blondesassyparrot', (req, res) => {
+	parrotRequest('blondesassyparrot', req, res)
+});
+
+app.get('/tacoparrot', (req, res) => {
+	parrotRequest('tacoparrot', req, res)
+});
+
 app.get('/lithuaniaparrot', (req, res) => {
 	parrotRequest('lithuaniaparrot', req, res)
 });
@@ -673,6 +785,10 @@ app.get('/dealwithitparrot', (req, res) => {
 
 app.get('/armeniaparrot', (req, res) => {
 	parrotRequest('armeniaparrot', req, res)
+});
+
+app.get('/margaritaparrot', (req, res) => {
+	parrotRequest('margaritaparrot', req, res)
 });
 
 app.get('/redbullparrot', (req, res) => {
@@ -713,6 +829,10 @@ app.get('/mergeimmediatelyparrot', (req, res) => {
 
 app.get('/saintkittsandnevisparrot', (req, res) => {
 	parrotRequest('saintkittsandnevisparrot', req, res)
+});
+
+app.get('/tripletsparrot', (req, res) => {
+	parrotRequest('tripletsparrot', req, res)
 });
 
 app.get('/laptop_parrot', (req, res) => {
@@ -759,6 +879,10 @@ app.get('/malawiparrot', (req, res) => {
 	parrotRequest('malawiparrot', req, res)
 });
 
+app.get('/skiparrot', (req, res) => {
+	parrotRequest('skiparrot', req, res)
+});
+
 app.get('/northkoreaparrot', (req, res) => {
 	parrotRequest('northkoreaparrot', req, res)
 });
@@ -787,6 +911,10 @@ app.get('/russiaparrot', (req, res) => {
 	parrotRequest('russiaparrot', req, res)
 });
 
+app.get('/shipitparrot', (req, res) => {
+	parrotRequest('shipitparrot', req, res)
+});
+
 app.get('/montenegroparrot', (req, res) => {
 	parrotRequest('montenegroparrot', req, res)
 });
@@ -803,12 +931,20 @@ app.get('/serbiaparrot', (req, res) => {
 	parrotRequest('serbiaparrot', req, res)
 });
 
+app.get('/ryangoslingparrot', (req, res) => {
+	parrotRequest('ryangoslingparrot', req, res)
+});
+
 app.get('/thailandparrot', (req, res) => {
 	parrotRequest('thailandparrot', req, res)
 });
 
 app.get('/aussiereversecongaparrot', (req, res) => {
 	parrotRequest('aussiereversecongaparrot', req, res)
+});
+
+app.get('/databaseparrot', (req, res) => {
+	parrotRequest('databaseparrot', req, res)
 });
 
 app.get('/yosemitesamparrot', (req, res) => {
@@ -835,6 +971,10 @@ app.get('/confusedparrot', (req, res) => {
 	parrotRequest('confusedparrot', req, res)
 });
 
+app.get('/wave4parrot', (req, res) => {
+	parrotRequest('wave4parrot', req, res)
+});
+
 app.get('/footballparrot', (req, res) => {
 	parrotRequest('footballparrot', req, res)
 });
@@ -853,6 +993,10 @@ app.get('/party-wizard', (req, res) => {
 
 app.get('/coffeeparrot', (req, res) => {
 	parrotRequest('coffeeparrot', req, res)
+});
+
+app.get('/bobrossparrot', (req, res) => {
+	parrotRequest('bobrossparrot', req, res)
 });
 
 app.get('/accessibleparrot', (req, res) => {
@@ -927,6 +1071,10 @@ app.get('/temporaltableparrot', (req, res) => {
 	parrotRequest('temporaltableparrot', req, res)
 });
 
+app.get('/wave9parrot', (req, res) => {
+	parrotRequest('wave9parrot', req, res)
+});
+
 app.get('/moonparrot', (req, res) => {
 	parrotRequest('moonparrot', req, res)
 });
@@ -947,6 +1095,10 @@ app.get('/norwegianblueparrot', (req, res) => {
 	parrotRequest('norwegianblueparrot', req, res)
 });
 
+app.get('/portalparrot', (req, res) => {
+	parrotRequest('portalparrot', req, res)
+});
+
 app.get('/capsparrot', (req, res) => {
 	parrotRequest('capsparrot', req, res)
 });
@@ -959,8 +1111,16 @@ app.get('/cubaparrot', (req, res) => {
 	parrotRequest('cubaparrot', req, res)
 });
 
+app.get('/krakenparrot', (req, res) => {
+	parrotRequest('krakenparrot', req, res)
+});
+
 app.get('/christmasparrot', (req, res) => {
 	parrotRequest('christmasparrot', req, res)
+});
+
+app.get('/luckyparrot', (req, res) => {
+	parrotRequest('luckyparrot', req, res)
 });
 
 app.get('/covid19parrot', (req, res) => {
@@ -969,6 +1129,10 @@ app.get('/covid19parrot', (req, res) => {
 
 app.get('/tpparrot', (req, res) => {
 	parrotRequest('tpparrot', req, res)
+});
+
+app.get('/pythonparrot', (req, res) => {
+	parrotRequest('pythonparrot', req, res)
 });
 
 app.get('/kosovoparrot', (req, res) => {
@@ -999,6 +1163,14 @@ app.get('/kyrgyzstanparrot', (req, res) => {
 	parrotRequest('kyrgyzstanparrot', req, res)
 });
 
+app.get('/shufflefurtherparrot', (req, res) => {
+	parrotRequest('shufflefurtherparrot', req, res)
+});
+
+app.get('/fiestaparrot', (req, res) => {
+	parrotRequest('fiestaparrot', req, res)
+});
+
 app.get('/wfhparrot', (req, res) => {
 	parrotRequest('wfhparrot', req, res)
 });
@@ -1009,6 +1181,10 @@ app.get('/illuminatiparrot', (req, res) => {
 
 app.get('/iranparrot', (req, res) => {
 	parrotRequest('iranparrot', req, res)
+});
+
+app.get('/pear-parrots', (req, res) => {
+	parrotRequest('pear-parrots', req, res)
 });
 
 app.get('/reverseportalorangeparrot', (req, res) => {
@@ -1043,6 +1219,10 @@ app.get('/monacoparrot', (req, res) => {
 	parrotRequest('monacoparrot', req, res)
 });
 
+app.get('/fadingparrot', (req, res) => {
+	parrotRequest('fadingparrot', req, res)
+});
+
 app.get('/headingparrot', (req, res) => {
 	parrotRequest('headingparrot', req, res)
 });
@@ -1075,6 +1255,10 @@ app.get('/sneezyparrot', (req, res) => {
 	parrotRequest('sneezyparrot', req, res)
 });
 
+app.get('/espressomartiniparrot', (req, res) => {
+	parrotRequest('espressomartiniparrot', req, res)
+});
+
 app.get('/birthdaypartyparrot', (req, res) => {
 	parrotRequest('birthdaypartyparrot', req, res)
 });
@@ -1089,6 +1273,10 @@ app.get('/stayhomeparrotcloser', (req, res) => {
 
 app.get('/partygfm', (req, res) => {
 	parrotRequest('partygfm', req, res)
+});
+
+app.get('/harrypotterparrot', (req, res) => {
+	parrotRequest('harrypotterparrot', req, res)
 });
 
 app.get('/albaniaparrot', (req, res) => {
@@ -1111,8 +1299,24 @@ app.get('/dailyparrot', (req, res) => {
 	parrotRequest('dailyparrot', req, res)
 });
 
+app.get('/mergedparrot', (req, res) => {
+	parrotRequest('mergedparrot', req, res)
+});
+
+app.get('/asyncparrot', (req, res) => {
+	parrotRequest('asyncparrot', req, res)
+});
+
+app.get('/wave1parrot', (req, res) => {
+	parrotRequest('wave1parrot', req, res)
+});
+
 app.get('/ultrafastparrot', (req, res) => {
 	parrotRequest('ultrafastparrot', req, res)
+});
+
+app.get('/mongodbparrot', (req, res) => {
+	parrotRequest('mongodbparrot', req, res)
 });
 
 app.get('/somalilandparrot', (req, res) => {
@@ -1187,6 +1391,10 @@ app.get('/angelparrot', (req, res) => {
 	parrotRequest('angelparrot', req, res)
 });
 
+app.get('/dreidelparrot', (req, res) => {
+	parrotRequest('dreidelparrot', req, res)
+});
+
 app.get('/partypicard', (req, res) => {
 	parrotRequest('partypicard', req, res)
 });
@@ -1255,6 +1463,14 @@ app.get('/pingpongparrot', (req, res) => {
 	parrotRequest('pingpongparrot', req, res)
 });
 
+app.get('/wave7parrot', (req, res) => {
+	parrotRequest('wave7parrot', req, res)
+});
+
+app.get('/hamburgerparrot', (req, res) => {
+	parrotRequest('hamburgerparrot', req, res)
+});
+
 app.get('/invisibleparrot', (req, res) => {
 	parrotRequest('invisibleparrot', req, res)
 });
@@ -1315,6 +1531,10 @@ app.get('/shortparrot', (req, res) => {
 	parrotRequest('shortparrot', req, res)
 });
 
+app.get('/ethparrot', (req, res) => {
+	parrotRequest('ethparrot', req, res)
+});
+
 app.get('/falklandislandsparrot', (req, res) => {
 	parrotRequest('falklandislandsparrot', req, res)
 });
@@ -1325,6 +1545,10 @@ app.get('/belgiumparrot', (req, res) => {
 
 app.get('/nigeriaparrot', (req, res) => {
 	parrotRequest('nigeriaparrot', req, res)
+});
+
+app.get('/dabparrot', (req, res) => {
+	parrotRequest('dabparrot', req, res)
 });
 
 app.get('/inverseparrot', (req, res) => {
@@ -1353,6 +1577,14 @@ app.get('/croatiaparrot', (req, res) => {
 
 app.get('/maldivesparrot', (req, res) => {
 	parrotRequest('maldivesparrot', req, res)
+});
+
+app.get('/partyrocket', (req, res) => {
+	parrotRequest('partyrocket', req, res)
+});
+
+app.get('/bluescluesparrot', (req, res) => {
+	parrotRequest('bluescluesparrot', req, res)
 });
 
 app.get('/reversecongaparrot', (req, res) => {
@@ -1451,8 +1683,16 @@ app.get('/bikerparrot', (req, res) => {
 	parrotRequest('bikerparrot', req, res)
 });
 
+app.get('/sovjetparrot', (req, res) => {
+	parrotRequest('sovjetparrot', req, res)
+});
+
 app.get('/finlandparrot', (req, res) => {
 	parrotRequest('finlandparrot', req, res)
+});
+
+app.get('/matrixparrot', (req, res) => {
+	parrotRequest('matrixparrot', req, res)
 });
 
 app.get('/hypnoparrotlight', (req, res) => {
@@ -1491,6 +1731,10 @@ app.get('/senegalparrot', (req, res) => {
 	parrotRequest('senegalparrot', req, res)
 });
 
+app.get('/revertitparrot', (req, res) => {
+	parrotRequest('revertitparrot', req, res)
+});
+
 app.get('/kiribatiparrot', (req, res) => {
 	parrotRequest('kiribatiparrot', req, res)
 });
@@ -1525,6 +1769,10 @@ app.get('/partyfsjal', (req, res) => {
 
 app.get('/capeverdeparrot', (req, res) => {
 	parrotRequest('capeverdeparrot', req, res)
+});
+
+app.get('/partyowl', (req, res) => {
+	parrotRequest('partyowl', req, res)
 });
 
 app.get('/venezuelaparrot', (req, res) => {
@@ -1595,6 +1843,14 @@ app.get('/solomonislandsparrot', (req, res) => {
 	parrotRequest('solomonislandsparrot', req, res)
 });
 
+app.get('/metalparrot', (req, res) => {
+	parrotRequest('metalparrot', req, res)
+});
+
+app.get('/fixparrot', (req, res) => {
+	parrotRequest('fixparrot', req, res)
+});
+
 app.get('/60fpsparrot', (req, res) => {
 	parrotRequest('60fpsparrot', req, res)
 });
@@ -1621,6 +1877,14 @@ app.get('/partymoogle', (req, res) => {
 
 app.get('/saintvincentandthegrenadinesparrot', (req, res) => {
 	parrotRequest('saintvincentandthegrenadinesparrot', req, res)
+});
+
+app.get('/wave6parrot', (req, res) => {
+	parrotRequest('wave6parrot', req, res)
+});
+
+app.get('/rotatingparrot', (req, res) => {
+	parrotRequest('rotatingparrot', req, res)
 });
 
 app.get('/burundiparrot', (req, res) => {
@@ -1653,6 +1917,10 @@ app.get('/flowerparrot', (req, res) => {
 
 app.get('/twinsparrot', (req, res) => {
 	parrotRequest('twinsparrot', req, res)
+});
+
+app.get('/thegrokeparrot', (req, res) => {
+	parrotRequest('thegrokeparrot', req, res)
 });
 
 app.get('/spinningparrot', (req, res) => {
@@ -1735,6 +2003,18 @@ app.get('/mardigrasparrot', (req, res) => {
 	parrotRequest('mardigrasparrot', req, res)
 });
 
+app.get('/stalkerparrot', (req, res) => {
+	parrotRequest('stalkerparrot', req, res)
+});
+
+app.get('/richpartyparrot', (req, res) => {
+	parrotRequest('richpartyparrot', req, res)
+});
+
+app.get('/oldtimeyparrot', (req, res) => {
+	parrotRequest('oldtimeyparrot', req, res)
+});
+
 app.get('/mexicoparrot', (req, res) => {
 	parrotRequest('mexicoparrot', req, res)
 });
@@ -1745,6 +2025,10 @@ app.get('/centralafricanrepublicparrot', (req, res) => {
 
 app.get('/syriaparrot', (req, res) => {
 	parrotRequest('syriaparrot', req, res)
+});
+
+app.get('/cryptoparrot', (req, res) => {
+	parrotRequest('cryptoparrot', req, res)
 });
 
 app.get('/southossetiaparrot', (req, res) => {
@@ -1795,6 +2079,10 @@ app.get('/hypnoparrot', (req, res) => {
 	parrotRequest('hypnoparrot', req, res)
 });
 
+app.get('/pizzaparrot', (req, res) => {
+	parrotRequest('pizzaparrot', req, res)
+});
+
 app.get('/palestineparrot', (req, res) => {
 	parrotRequest('palestineparrot', req, res)
 });
@@ -1813,6 +2101,7 @@ app.get('/moonwalkingparrot', (req, res) => {
 
 app.get('/autonomousparrot', (req, res) => {
 	parrotRequest('autonomousparrot', req, res)
-});app.listen(port, () => {
+});
+app.listen(port, () => {
 	console.log(`Server started at http://localhost:${port}`);
 });
