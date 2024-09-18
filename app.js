@@ -26,6 +26,25 @@ function parrotRequest(parrot, req, res) {
     file = fs.readFileSync(`processed_gifs/${filename}.txt`, 'utf8');
     let frames = file.split('=====================');
 
+	let max_num_lines = 0;
+	for (let i = 0; i < frames.length; i++) {
+		let lines = frames[i].split('\n');
+		if (lines.length > max_num_lines) {
+			max_num_lines = lines.length;
+		}
+	}
+
+	// Add empty lines to the start of each frame to make them all the same length
+	for (let i = 0; i < frames.length; i++) {
+		let lines = frames[i].split('\n');
+		let num_lines = lines.length;
+		let num_empty_lines = max_num_lines - num_lines;
+		for (let j = 0; j < num_empty_lines; j++) {
+			lines.unshift('');
+		}
+		frames[i] = lines.join('\n');
+	}
+
     let counter = 0;
     res.write('\u001b[?25l'); // Hide cursor
     res.write('\x1b[2J'); // Clear screen
@@ -2120,4 +2139,70 @@ app.get('/thegrokeparrot', (req, res) => {
 });
 app.listen(port, () => {
 	console.log(`Server started at http://localhost:${port}`);
+});
+
+// Handle all other unspecified routes
+app.get('*', (req, res) => {
+	let filename = 'parrotnotfound';
+
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
+    res.flushHeaders();
+
+    let fps = 15;
+    let frameDuration = 1000 / fps;
+	// let frameDuration = 1000;
+
+    // Load the gif from the file  
+    file = fs.readFileSync(`processed_gifs/${filename}.txt`, 'utf8');
+    let frames = file.split('=====================');
+
+	let max_num_lines = 0;
+	for (let i = 0; i < frames.length; i++) {
+		let lines = frames[i].split('\n');
+		if (lines.length > max_num_lines) {
+			max_num_lines = lines.length;
+		}
+	}
+
+	// Add empty lines to the start of each frame to make them all the same length
+	for (let i = 0; i < frames.length; i++) {
+		let lines = frames[i].split('\n');
+		let num_lines = lines.length;
+		let num_empty_lines = max_num_lines - num_lines;
+		for (let j = 0; j < num_empty_lines; j++) {
+			lines.unshift('');
+		}
+		frames[i] = lines.join('\n');
+	}
+
+    let counter = 0;
+    res.write('\u001b[?25l'); // Hide cursor
+    res.write('\x1b[2J'); // Clear screen
+
+    const intervalId = setInterval(() => {
+        if (res.writableEnded) {
+            clearInterval(intervalId);
+            return;
+        }
+
+        res.write('\x1b[H'); // Move cursor to the top
+		res.write('          404: Parrot not found\n');
+        res.write(frames[counter]);
+
+        counter++;
+        if (counter >= frames.length-1) {
+            counter = 0;
+        }
+    }, frameDuration);
+
+    req.on('close', () => {
+        clearInterval(intervalId);
+        if (!res.writableEnded) {
+            res.write('\x1b[2J'); // Clear screen
+            res.write('\u001b[?25h'); // Show cursor
+            res.end();
+        }
+    });
 });

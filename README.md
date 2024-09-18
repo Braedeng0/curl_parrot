@@ -5,6 +5,9 @@ PARTY OR DIE
 curl https://curl-parrot.onrender.com/{endpoint}
 
 Endpoints:
+Endpoints are from https://cultofthepartyparrot.com/
+names are formatted with no spaces, all lowercase
+
 -60fpsparrot, abkhaziaparrot, accessibleparrot, afghanistanparrot, albaniaparrot
 -algeriaparrot, andorraparrot, angelparrot, angolaparrot, angryparrot
 -antarcticaparrot, antiguaandbarbudaparrot, argentinaparrot, armeniaparrot, artsakhparrot
