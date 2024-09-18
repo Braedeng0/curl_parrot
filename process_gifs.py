@@ -16,19 +16,30 @@ with open("README.md", "w") as f:
 
 parrots = []
 
-directory = os.fsencode("gifs/hd")
-for file in os.listdir(directory):
-    filepath = f'{os.fsdecode(directory)}/{os.fsdecode(file)}'
-    filename = os.fsdecode(file)[:-4]
-    generate_frames.generate(filename, filepath)
+rootDirectory = os.fsencode("gifs")
+for directory in os.listdir(rootDirectory):
+    # If the directory is a .DS_Store, skip
+    print(os.path.splitext(directory))
+    if os.fsdecode(os.path.splitext(directory)[0]) == ".DS_Store":
+            continue
+    workingDir = f'{os.fsdecode(rootDirectory)}/{os.fsdecode(directory)}'
+    if not os.path.exists(f"processed_gifs/{os.fsdecode(directory)}"):
+        os.makedirs(f"processed_gifs/{os.fsdecode(directory)}")
+    for file in os.listdir(workingDir):
+        # If the file is not a gif, don't attempt to use
+        if os.path.splitext(file)[-1] != ".gif":
+            continue
+        filepath = f'{workingDir}/{os.fsdecode(file)}'
+        filename = os.fsdecode(file)[:-4]
+        generate_frames.generate(filename, filepath, f"processed_gifs/{os.fsdecode(directory)}")
 
-    with open("jsTemplate.txt", "r") as f:
-        newData = f.read()
+        with open("jsTemplate.txt", "r") as f:
+            newData = f.read()
 
-    with open("app.js", "a") as f:
-        f.write(f"\n\napp.get('/{filename}', (req, res) => {{\n\tparrotRequest('{filename}', req, res)\n}});")
+        with open("app.js", "a") as f:
+            f.write(f"\n\napp.get('/{filename}', (req, res) => {{\n\tparrotRequest('{os.fsdecode(directory)}/{filename}', req, res)\n}});")
 
-    parrots.append(filename)
+        parrots.append(filename)
 
 with open("app.js", "a") as f:
     f.write("\napp.listen(port, () => {\n\tconsole.log(`Server started at http://localhost:${port}`);\n});")
