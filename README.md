@@ -5,184 +5,444 @@ PARTY OR DIE
 curl https://curl-parrot.onrender.com/{endpoint}
 
 Endpoints:
-- accessibleparrot
-- angelparrot
-- angryparrot
-- astronautparrot
-- aussiecongaparrot
-- aussieparrot
-- aussiereversecongaparrot
-- autonomousparrot
-- backwardsparrot
-- badparrot
-- balconyparrot
-- beerparrot
-- beretparrot
-- bikerparrot
-- biparrot
-- birthdaypartyparrot
-- bluntparrot
-- blurryparrot
-- bobaparrot
-- boomparrot
-- bootlegparrot
-- boredparrot
-- bouncingparrot
-- braveheartparrot
-- brazilianfanparrot
-- brazilianplayerparrot
-- bunnyparrot
-- cakeparrot
-- calvinist_parrot
-- ceilingparrot
-- chefkissparrot
-- chefparrot
-- chicoparrot
-- christmasparrot
-- coffeeparrot
-- confusedparrot
-- congaparrot
-- congapartyparrot
-- copparrot
-- covid19parrot
-- croissantparrot
-- dadparrot
-- daftpunkparrot
-- dailyparrot
-- darkmodeparrot
-- dealwithitnowparrot
-- dealwithitparrot
-- deletedparrot
-- discoparrot
-- docparrot
-- donutparrot
-- everythingsfineparrot
-- evilparrot
-- exceptionallyfastparrot
-- fastparrot
-- fasttwinsparrot
-- flowerparrot
-- flyingmoneyparrot
-- footballparrot
-- frenchparrot
-- gentlemanparrot
-- githubparrot
-- glimpseparrot
-- gothparrot
-- grouchoparrot
-- hackerparrot
-- hanamiparrot
-- hardhatparrot
-- harpoparrot
-- headbangingparrot
-- headingparrot
-- headsetparrot
-- hmmparrot
-- horizontalparrot
-- hypnoparrot
-- hypnoparrotdark
-- hypnoparrotlight
-- illuminatiparrot
-- imposterparrot
-- innersourceparrot
-- inverseparrot
-- invisibleparrot
-- jediparrot
-- jumpingparrot
-- jumpingparrotjr
-- kindasusparrot
-- laptop_parrot
-- levitationparrot
-- maracasparrot
-- mardigrasparrot
-- marshmallowparrot
-- maskparrot
-- mateparrot
-- meldparrot
-- mergeconflictparrot
-- mergeimmediatelyparrot
-- mergetrainparrot
-- michaeljacksonparrot
-- middleparrot
-- moonparrot
-- moonwalkingparrot
-- mustacheparrot
-- nodeparrot
-- norwegianblueparrot
-- opensourceparrot
-- originalparrot
-- parrot
-- parrotnotfound
-- partyparrot
-- phparrot
-- picassoparrot
-- pingpongparrot
-- pirateparrot
-- playcatchleftparrot
-- playcatchrightparrot
-- pokeparrot
-- popcornparrot
-- portalblueparrot
-- portalorangeparrot
-- pumpkinparrot
-- quadparrot
-- raceconditionparrot
-- reactparrot
-- redbullparrot
-- redenvelopeparrot
-- redhatparrot
-- resonatingredparrot
-- reversecongaparrot
-- reverseparrot
-- reverseportalblueparrot
-- reverseportalorangeparrot
-- revolutionparrot
-- ripparrot
-- rubyparrot
-- rythmicalparrot
-- sadparrot
-- sassyparrot
-- scienceparrot
-- sherlockholmesparrot
-- shortparrot
-- shuffleparrot
-- sidewaysparrot
-- sintparrot
-- sithparrot
-- sleepingparrot
-- slowparrot
-- sneezyparrot
-- soccerparrot
-- spinningparrot
-- spyparrot
-- stableparrot
-- stayhomeparrot
-- stayhomeparrotcloser
-- stayhomeparrotwindow
-- staytfhomeparrot
-- sushiparrot
-- temporaltableparrot
-- tennisparrot
-- thankyouparrot
-- thefastestparrot
-- thumbsupparrot
-- tiedyeparrot
-- tinfoilhatparrot
-- tpparrot
-- transparront
-- turndownforwatchparrot
-- twinsparrot
-- ultrafastparrot
-- unicornparrot
-- vacationparrot
-- vaccineparrot
-- verticalparrot
-- vikingparrot
-- vueparrot
-- wendyparrot
-- wfhparrot
-- whitewalkerparrot
-- wineparrot
-- yosemitesamparrot
-- zombieparrot
-- zoukparrot
+-60fpsparrot
+-abkhaziaparrot
+-accessibleparrot
+-afghanistanparrot
+-albaniaparrot
+-algeriaparrot
+-andorraparrot
+-angelparrot
+-angolaparrot
+-angryparrot
+-antarcticaparrot
+-antiguaandbarbudaparrot
+-argentinaparrot
+-armeniaparrot
+-artsakhparrot
+-astronautparrot
+-aussiecongaparrot
+-aussieparrot
+-aussiereversecongaparrot
+-australiaparrot
+-austriaparrot
+-autonomousparrot
+-azerbaijanparrot
+-backwardsparrot
+-badparrot
+-bahamasparrot
+-bahrainparrot
+-balconyparrot
+-bangladeshparrot
+-barbadosparrot
+-batparrot
+-beerparrot
+-belarusparrot
+-belgiumparrot
+-belizeparrot
+-beninparrot
+-beretparrot
+-bhutanparrot
+-bikerparrot
+-biparrot
+-birthdaypartyparrot
+-bluntparrot
+-blurryparrot
+-bobaparrot
+-boliviaparrot
+-boomparrot
+-bootlegparrot
+-boredparrot
+-bosniaandherzegovinaparrot
+-botswanaparrot
+-bouncingparrot
+-braveheartparrot
+-brazilianfanparrot
+-brazilianplayerparrot
+-brazilparrot
+-bruneiparrot
+-bugparrot
+-bulgariaparrot
+-bunnyparrot
+-burkinafasoparrot
+-burundiparrot
+-cakeparrot
+-calvinist_parrot
+-cambodiaparrot
+-cameroonparrot
+-canadaparrot
+-capeverdeparrot
+-capsparrot
+-ceilingparrot
+-centralafricanrepublicparrot
+-chadparrot
+-checkeredflagparrot
+-chefkissparrot
+-chefparrot
+-chicoparrot
+-chileparrot
+-chinaparrot
+-christmasparrot
+-coffeeparrot
+-colombiaparrot
+-comorosparrot
+-confusedparrot
+-congaparrot
+-congapartyparrot
+-cookislandsparrot
+-copparrot
+-costaricaparrot
+-covid19parrot
+-croatiaparrot
+-croissantparrot
+-cryingjordanparrot
+-cubaparrot
+-cyprusparrot
+-czechrepublicparrot
+-dadparrot
+-daftpunkparrot
+-dailyparrot
+-darkmodeparrot
+-dealwithitnowparrot
+-dealwithitparrot
+-deletedparrot
+-democraticrepublicofthecongoparrot
+-denmarkparrot
+-discoduck
+-discoparrot
+-djiboutiparrot
+-docparrot
+-dogeparrot
+-dominicanrepublicparrot
+-dominicaparrot
+-donutparrot
+-easttimorparrot
+-ecuadorparrot
+-egyptparrot
+-elsalvadorparrot
+-england
+-equatorialguineaparrot
+-eritreaparrot
+-estoniaparrot
+-eswatiniparrot
+-ethiopiaparrot
+-euparrot
+-everythingsfineparrot
+-evilparrot
+-exceptionallyfastparrot
+-falklandislandsparrot
+-fastparrot
+-fasttwinsparrot
+-fijiparrot
+-finlandparrot
+-flowerparrot
+-flyingmoneyparrot
+-footballparrot
+-franceparrot
+-freebelarusparrot
+-frenchparrot
+-gabonparrot
+-gambiaparrot
+-gentlemanparrot
+-georgiaparrot
+-germanyparrot
+-ghanaparrot
+-githubparrot
+-glimpseparrot
+-gothparrot
+-greeceparrot
+-greekmacedoniaparrot
+-greenlandparrot
+-grenadaparrot
+-grouchoparrot
+-guatemalaparrot
+-guineabissauparrot
+-guineaparrot
+-gumiparrot
+-guyanaparrot
+-hackerparrot
+-haitiparrot
+-hanamiparrot
+-hardhatparrot
+-harpoparrot
+-headbangingparrot
+-headingparrot
+-headsetparrot
+-hmmparrot
+-hondurasparrot
+-hongkongparrot
+-horizontalparrot
+-hungaryparrot
+-hypnoparrot
+-hypnoparrotdark
+-hypnoparrotlight
+-icelandparrot
+-illuminatiparrot
+-imposterparrot
+-indiaparrot
+-indonesiaparrot
+-innersourceparrot
+-inverseparrot
+-invisibleparrot
+-iranparrot
+-iraqparrot
+-irelandparrot
+-israelparrot
+-italyparrot
+-ivorycoastparrot
+-jamaicaparrot
+-japanparrot
+-jediparrot
+-jordanparrot
+-jumpingparrot
+-jumpingparrotjr
+-kazakhstanparrot
+-kenyaparrot
+-kindasusparrot
+-kiribatiparrot
+-kosovoparrot
+-kuwaitparrot
+-kyrgyzstanparrot
+-laosparrot
+-laptop_parrot
+-latviaparrot
+-lebanonparrot
+-lesothoparrot
+-levitationparrot
+-liberiaparrot
+-libyaparrot
+-liechtensteinparrot
+-lithuaniaparrot
+-luxembourgparrot
+-macauparrot
+-madagascarparrot
+-malawiparrot
+-malaysiaparrot
+-maldivesparrot
+-maliparrot
+-maltaparrot
+-maracasparrot
+-mardigrasparrot
+-marshallislandsparrot
+-marshmallowparrot
+-maskparrot
+-mateparrot
+-mauritaniaparrot
+-mauritiusparrot
+-meldparrot
+-mergeconflictparrot
+-mergeimmediatelyparrot
+-mergetrainparrot
+-mexicoparrot
+-michaeljacksonparrot
+-micronesiaparrot
+-middleparrot
+-moldovaparrot
+-monacoparrot
+-mongoliaparrot
+-montenegroparrot
+-moonparrot
+-moonwalkingparrot
+-moroccoparrot
+-mozambiqueparrot
+-mustacheparrot
+-myanmarparrot
+-namibiaparrot
+-nauruparrot
+-nepalparrot
+-netherlandsparrot
+-newzealandparrot
+-nicaraguaparrot
+-nigeriaparrot
+-nigerparrot
+-niueparrot
+-nodeparrot
+-northern-ireland-st-patricks-saltire
+-northern-ireland-ulster-banner
+-northerncyprusparrot
+-northkoreaparrot
+-northmacedoniaparrot
+-norwayparrot
+-norwegianblueparrot
+-nyanparrot
+-old-man-yells-at-parrot
+-omanparrot
+-opensourceparrot
+-originalparrot
+-pakistanparrot
+-palauparrot
+-palestineparrot
+-panamaparrot
+-papuanewguineaparrot
+-paraguayparrot
+-parrot
+-parrotnotfound
+-parrotpoop
+-party-k8s
+-party-wizard
+-partyannoyedbird
+-partyblob
+-partyblobcat
+-partycage
+-partyfieri
+-partyfsjal
+-partygeeko
+-partygfm
+-partygopher
+-partygritty
+-partykeanu
+-partymoogle
+-partyparrot
+-partypicard
+-partysloth
+-partytux
+-partywumpus
+-peruparrot
+-philippinesparrot
+-phparrot
+-picassoparrot
+-pingpongparrot
+-pirateparrot
+-playcatchleftparrot
+-playcatchrightparrot
+-pokeparrot
+-polandparrot
+-popcornparrot
+-portalblueparrot
+-portalorangeparrot
+-portugalparrot
+-preetjusticeparrot
+-prideparrot
+-puertoricoparrot
+-pumpkinparrot
+-qatarparrot
+-quadparrot
+-quebecparrot
+-raceconditionparrot
+-reactparrot
+-redbullparrot
+-redenvelopeparrot
+-redhatparrot
+-republicofthecongoparrot
+-resonatingredparrot
+-reversecongaparrot
+-reverseparrot
+-reverseportalblueparrot
+-reverseportalorangeparrot
+-revolutionparrot
+-ripparrot
+-romaniaparrot
+-rubyparrot
+-russiaparrot
+-rwandaparrot
+-rythmicalparrot
+-sadparrot
+-sahrawiarabdemocraticrepublicparrot
+-saintkittsandnevisparrot
+-saintluciaparrot
+-saintvincentandthegrenadinesparrot
+-samoaparrot
+-sanmarinoparrot
+-saotomeandprincipeparrot
+-sassyparrot
+-saudiarabiaparrot
+-scienceparrot
+-scotland
+-senegalparrot
+-serbiaparrot
+-seychellesparrot
+-sherlockholmesparrot
+-shortparrot
+-shuffleparrot
+-sidewaysparrot
+-sierraleoneparrot
+-singaporeparrot
+-sintparrot
+-sithparrot
+-sleepingparrot
+-slovakiaparrot
+-sloveniaparrot
+-slowparrot
+-sneezyparrot
+-soccerparrot
+-solomonislandsparrot
+-somaliaparrot
+-somalilandparrot
+-southafricaparrot
+-southkoreaparrot
+-southossetiaparrot
+-southsudanparrot
+-spainparrot
+-spinningparrot
+-spyparrot
+-srilankaparrot
+-stableparrot
+-stayhomeparrot
+-stayhomeparrotcloser
+-stayhomeparrotwindow
+-staytfhomeparrot
+-stubparrot
+-sudanparrot
+-surinameparrot
+-sushiparrot
+-swedenparrot
+-switzerlandparrot
+-syriaparrot
+-taiwanparrot
+-tajikistanparrot
+-tanzaniaparrot
+-temporaltableparrot
+-tennisparrot
+-thailandparrot
+-thankyouparrot
+-thefastestparrot
+-thisisfineparrot
+-thumbsupparrot
+-tiedyeparrot
+-tinfoilhatparrot
+-togoparrot
+-tongaparrot
+-tpparrot
+-transnistriaparrot
+-transparront
+-transparrot
+-trinidadandtobagoparrot
+-trollparrot
+-tunisiaparrot
+-turkeyparrot
+-turkmenistanparrot
+-turndownforwatchparrot
+-tuvaluparrot
+-twinsparrot
+-ugandaparrot
+-ukraineparrot
+-ultrafastparrot
+-unicornparrot
+-unitedarabemiratesparrot
+-unitedkingdomparrot
+-unitedstatesofamericaparrot
+-uruguayparrot
+-uzbekistanparrot
+-vacationparrot
+-vaccineparrot
+-vanuatuparrot
+-vaticancityparrot
+-venezuelaparrot
+-verticalparrot
+-vibepartycat
+-vietnamparrot
+-vikingparrot
+-vueparrot
+-wales
+-wendyparrot
+-westernsaharaparrot
+-wfhparrot
+-whitewalkerparrot
+-wineparrot
+-witnessprotectionparrot
+-yemenparrot
+-yosemitesamparrot
+-zambiaparrot
+-zimbabweparrot
+-zombieparrot
+-zoukparrot
