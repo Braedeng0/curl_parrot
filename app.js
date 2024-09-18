@@ -15,11 +15,20 @@ function parrotRequest(parrot, req, res, notFound=false) {
     let filename = parrot;
 
 	// Check if the file exists
-	let file;
-	try {
-		file = fs.readFileSync(`processed_gifs/${filename}.txt`, 'utf8');
-	} catch (err) {
-		// If file not found, send parrotnotfound
+	let paths = [
+		`processed_gifs/parrots/${filename}.txt`,
+		`processed_gifs/flags/${filename}.txt`,
+		`processed_gifs/guests/${filename}.txt`
+	];
+	
+	let file = null;
+	for (let i = 0; i < paths.length; i ++) {
+		if (fs.existsSync(paths[i])) {
+			file = fs.readFileSync(paths[i], 'utf8');
+			break;
+		}
+	}
+	if (file == null) {
 		parrotRequest('parrotnotfound', req, res, true);
 		return;
 	}
