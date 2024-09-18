@@ -1,5 +1,5 @@
-app.get('/', (req, res) => {
-    let filename = "";
+function parrotRequest(parrot) {
+    let filename = parrot;
 
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
@@ -40,4 +40,4 @@ app.get('/', (req, res) => {
             res.end();
         }
     });
-});
+}
