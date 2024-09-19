@@ -11,7 +11,7 @@ app.get('/help', (req, res) => {
 	res.sendFile(__dirname + '/README.md');
 });
 
-function parrotRequest(parrot, req, res, notFound=false) {
+function parrotRequest(parrot, req, res, notFound=false, returnName=false) {
     let filename = parrot;
 
 	// Check if the file exists
@@ -74,10 +74,14 @@ function parrotRequest(parrot, req, res, notFound=false) {
 
         res.write('\x1b[H');
 		if (notFound) {
-			let frameWidth = frames[0].split('\n')[1].split('38;').length - 1;
-			spacing = ' '.repeat(frameWidth/2);
+			spacing = ' '.repeat(25);
 			res.write(spacing);
 			res.write('404 Parrot Not Found\n');
+		}
+		if (returnName) {
+			spacing = ' '.repeat(25);
+			res.write(spacing);
+			res.write(`${filename}\n`);
 		}
         res.write(frames[counter]);
 
@@ -96,6 +100,24 @@ function parrotRequest(parrot, req, res, notFound=false) {
         }
     });
 }
+
+app.get('/random', (req, res) => {
+	let parrots = fs.readdirSync('processed_gifs/parrots');
+	let randomParrot = parrots[Math.floor(Math.random() * parrots.length)].slice(0, -4);
+	parrotRequest(randomParrot, req, res, false, true);
+});
+
+app.get('/randomflag', (req, res) => {
+	let flags = fs.readdirSync('processed_gifs/flags');
+	let randomFlag = flags[Math.floor(Math.random() * flags.length)].slice(0, -4);
+	parrotRequest(randomFlag, req, res, false, true);
+});
+
+app.get('/randomguest', (req, res) => {
+	let guests = fs.readdirSync('processed_gifs/guests');
+	let randomGuest = guests[Math.floor(Math.random() * guests.length)].slice(0, -4);
+	parrotRequest(randomGuest, req, res, false, true);
+});
 
 app.get('*', (req, res) => {
 	// Get endpoint
